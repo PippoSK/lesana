@@ -1,0 +1,12 @@
+.env
+.env.*
+!.env.example
+target/
+test-results/
+.task-work/
+.work/
+.codex/
+__pycache__/
+*.py[cod]
+.DS_Store
+

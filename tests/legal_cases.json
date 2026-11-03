@@ -1,0 +1,1627 @@
+{
+  "version": "1.3",
+  "description": "Pracovná sada 71 otázok. Referenčné znenia pochádzajú z lokálnych snapshotov; právna správnosť a úplnosť rubrík čaká na ľudskú kontrolu. Výsledok retrieval_pass nie je právna správnosť odpovede.",
+  "source_snapshots": {
+    "Gruber": {
+      "file": "data/gruber-20050120.html",
+      "sha256": "f22e173c855ece624f2883700b6346a9f3abc36f3dcf229a0ad3bf25b15622af"
+    },
+    "SSP": {
+      "file": "data/ssp-20260612.html",
+      "sha256": "410438e0870549e91764eec1c0a80fe729e05284179fb0913c0d4f55324a85e6"
+    },
+    "CSP": {
+      "file": "data/csp-20260715.html",
+      "sha256": "c99b8ae03487f267a6d9c6aa1f32d0c66a7b9ec9ddc05bab6723d1cc5dcc14db"
+    },
+    "CMP": {
+      "file": "data/cmp-20260817.html",
+      "sha256": "60b6540dfcc42d885c602ce22ef1a227b0ae61b1bc48fdbcccec716f04112d98"
+    },
+    "SP": {
+      "file": "data/sp-20180901.html",
+      "sha256": "28e82b3a34004d6fda1ed8a872e8bc2e3103b88fbc3baef5c0fd214d698c07e9"
+    },
+    "ZoP": {
+      "file": "data/zop-20260901.html",
+      "sha256": "415c9e0efdb8fbeadd21c9edd9307ea1274091f168c28d8652757cc494a5c27c"
+    },
+    "TZ": {
+      "file": "data/tz-20260818.html",
+      "sha256": "2c7fb39deb99449f704724037c8d6d4c988e29ffc51f51b38967feab5240c3d5"
+    },
+    "TP": {
+      "file": "data/tp-20260818.html",
+      "sha256": "0def5534dfcf98da430cf53c0d759546db1d1110c82d53920156a3fa76109010"
+    },
+    "OZ": {
+      "file": "data/oz-20260731.html",
+      "sha256": "afbb1d6302fef8c770374e07616532e05918a9a7aec5dd1f078d8f33afaece0e"
+    },
+    "ZoS": {
+      "file": "data/zos-20260927.html",
+      "sha256": "4ef3f605578b1a75025c45255daa398d7f46a35c95d1ecfe44988ab4d3f88028"
+    },
+    "BD": {
+      "file": "data/brussels-19980126.html",
+      "sha256": "01bdf6dd23cbd8fdcef770895320a701566216882eea6a37856c349f4dcaa75b"
+    }
+  },
+  "cases": [
+    {
+      "id": "LEXA-001",
+      "category": "exact",
+      "question": "Vysvetli § 181 SSP.",
+      "as_of": "2026-10-01",
+      "review_status": "pending_legal_review",
+      "expected_sources": [
+        {
+          "act_path": "/SK/ZZ/2015/162/",
+          "anchor": "paragraf-181",
+          "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2015/162/20260612.html#paragraf-181",
+          "reference_text": "§ 181 Lehota na podanie správnej žaloby (1) Fyzická osoba alebo právnická osoba musí správnu žalobu podať v lehote dvoch mesiacov od oznámenia rozhodnutia orgánu verejnej správy alebo opatrenia orgánu verejnej správy, proti ktorému smeruje, ak tento zákon alebo osobitný predpis neustanovuje inak. (2) Prokurátor musí správnu žalobu podať v lehote dvoch mesiacov od právoplatnosti rozhodnutia orgánu verejnej správy o nevyhovení protestu prokurátora. (3) Zainteresovaná verejnosť musí správnu žalobu podať v lehote dvoch mesiacov od právoplatnosti rozhodnutia orgánu verejnej správy alebo vydania opatrenia orgánu verejnej správy. (4) Zmeškanie lehoty podľa odsekov 1 až 3 nemožno odpustiť."
+        }
+      ],
+      "answer_rubric": "Vysvetliť uvedené ustanovenia podľa priloženého znenia; zachovať podmienky a výnimky. Nepridávať nepodložené závery.",
+      "human_review": {
+        "correctness": null,
+        "completeness": null,
+        "citation_support": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LEXA-002",
+      "category": "exact",
+      "question": "Vysvetli § 49 SSP.",
+      "as_of": "2026-10-01",
+      "review_status": "pending_legal_review",
+      "expected_sources": [
+        {
+          "act_path": "/SK/ZZ/2015/162/",
+          "anchor": "paragraf-49",
+          "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2015/162/20260612.html#paragraf-49",
+          "reference_text": "§ 49 (1) Žalobca musí byť v konaní pred správnym súdom zastúpený advokátom; to neplatí, ak má žalobca, jeho zamestnanec alebo člen, ktorý za neho na správnom súde koná alebo ho zastupuje, vysokoškolské právnické vzdelanie druhého stupňa. Povinnosť zastúpenia sa vzťahuje aj na spísanie žaloby. Splnomocnenie udelené advokátovi nemožno obmedziť. (2) Žalobca nemusí byť zastúpený podľa odseku 1 a) v konaní podľa § 23 ods. 2 písm. e) až g) , b) v konaní podľa § 6 ods. 2 písm. b) až e) , g) , i) a j) , c) v konaní o správnej žalobe vo veciach slobodného prístupu k informáciám podľa osobitného predpisu, d) ak je žalovaným Centrum právnej pomoci. (3) Advokát je oprávnený dať sa v konaní zastupovať iným advokátom."
+        }
+      ],
+      "answer_rubric": "Vysvetliť uvedené ustanovenia podľa priloženého znenia; zachovať podmienky a výnimky. Nepridávať nepodložené závery.",
+      "human_review": {
+        "correctness": null,
+        "completeness": null,
+        "citation_support": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LEXA-003",
+      "category": "exact",
+      "question": "Vysvetli § 182 SSP.",
+      "as_of": "2026-10-01",
+      "review_status": "pending_legal_review",
+      "expected_sources": [
+        {
+          "act_path": "/SK/ZZ/2015/162/",
+          "anchor": "paragraf-182",
+          "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2015/162/20260612.html#paragraf-182",
+          "reference_text": "§ 182 (1) V správnej žalobe sa musí okrem všeobecných náležitostí podania podľa § 57 uviesť a) označenie druhu žaloby, b) označenie žalovaného, ďalších účastníkov podľa § 32 ods. 3 a osôb zúčastnených na konaní podľa § 41 ods. 1 , c) označenie napadnutého rozhodnutia alebo opatrenia a deň jeho vydania, prípadne označenie výrokov, ktoré žalobca napáda, ak sú tieto samostatné a oddeliteľné a žaloba nesmeruje voči celému rozhodnutiu alebo opatreniu, d) deň oznámenia napadnutého rozhodnutia alebo opatrenia žalobcovi podľa § 181 ods. 1 alebo deň právoplatnosti rozhodnutia o nevyhovení protestu prokurátora podľa § 181 ods. 2 alebo deň právoplatnosti napadnutého rozhodnutia alebo opatrenia podľa § 181 ods. 3 alebo uvedenie, že žalobca sa považuje za opomenutého účastníka, alebo že žalovaný doručoval napadnuté rozhodnutie alebo opatrenie verejnou vyhláškou, e) dôvody žaloby, z ktorých musí byť zrejmé, z akých konkrétnych skutkových a právnych dôvodov žalobca považuje napadnuté výroky rozhodnutia alebo opatrenia za nezákonné (ďalej len „žalobné body“), f) označenie dôkazov, ak ich žalobca navrhuje vykonať, g) vyjadrenie, či žalobca žiada nariadenie pojednávania; na neskoršiu žiadosť žalobcu o nariadenie pojednávania správny súd neprihliada, h) návrh výroku rozhodnutia (ďalej len „žalobný návrh“). (2) K správnej žalobe musí byť pripojené a) splnomocnenie udelené advokátom, ak nejde o výnimky uvedené v § 49 ods. 1 a 2 , b) potvrdenie o požadovanom vzdelaní žalobcu, jeho zamestnanca alebo člena podľa § 49 ods. 1, c) jedno vyhotovenie napadnutého rozhodnutia orgánu verejnej správy alebo opatrenia orgánu verejnej správy, ak nejde o opomenutého účastníka podľa § 179 ods. 1 , alebo jedno vyhotovenie rozhodnutia orgánu verejnej správy o nevyhovení protestu prokurátora vydané v poslednom stupni, ak ide o správnu žalobu podanú prokurátorom."
+        }
+      ],
+      "answer_rubric": "Vysvetliť uvedené ustanovenia podľa priloženého znenia; zachovať podmienky a výnimky. Nepridávať nepodložené závery.",
+      "human_review": {
+        "correctness": null,
+        "completeness": null,
+        "citation_support": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LEXA-004",
+      "category": "exact",
+      "question": "Vysvetli § 57 SSP.",
+      "as_of": "2026-10-01",
+      "review_status": "pending_legal_review",
+      "expected_sources": [
+        {
+          "act_path": "/SK/ZZ/2015/162/",
+          "anchor": "paragraf-57",
+          "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2015/162/20260612.html#paragraf-57",
+          "reference_text": "§ 57 (1) Ak tento zákon na podanie nevyžaduje osobitné náležitosti, v podaní sa uvedie, a) ktorému správnemu súdu je určené, b) kto ho robí, c) ktorej veci sa týka, d) čo sa ním sleduje a e) podpis. (2) Ak ide o podanie urobené v prebiehajúcom konaní, náležitosťou podania je aj uvedenie spisovej značky tohto konania."
+        }
+      ],
+      "answer_rubric": "Vysvetliť uvedené ustanovenia podľa priloženého znenia; zachovať podmienky a výnimky. Nepridávať nepodložené závery.",
+      "human_review": {
+        "correctness": null,
+        "completeness": null,
+        "citation_support": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LEXA-005",
+      "category": "exact",
+      "question": "Vysvetli § 3 ods. 1 písm. b) SSP.",
+      "as_of": "2026-10-01",
+      "review_status": "pending_legal_review",
+      "expected_sources": [
+        {
+          "act_path": "/SK/ZZ/2015/162/",
+          "anchor": "paragraf-3.odsek-1.pismeno-b",
+          "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2015/162/20260612.html#paragraf-3.odsek-1.pismeno-b",
+          "reference_text": "b) rozhodnutím orgánu verejnej správy správny akt vydaný orgánom verejnej správy v administratívnom konaní, ktorý je formálne označený ako rozhodnutie alebo je za rozhodnutie považovaný podľa osobitného predpisu a zakladá, mení, zrušuje alebo deklaruje práva, právom chránené záujmy alebo povinnosti fyzickej osoby a právnickej osoby, alebo sa jej priamo dotýka,"
+        }
+      ],
+      "answer_rubric": "Vysvetliť uvedené ustanovenia podľa priloženého znenia; zachovať podmienky a výnimky. Nepridávať nepodložené závery.",
+      "human_review": {
+        "correctness": null,
+        "completeness": null,
+        "citation_support": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LEXA-006",
+      "category": "exact",
+      "question": "Vysvetli § 362 CSP.",
+      "as_of": "2026-10-01",
+      "review_status": "pending_legal_review",
+      "expected_sources": [
+        {
+          "act_path": "/SK/ZZ/2015/160/",
+          "anchor": "paragraf-362",
+          "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2015/160/20260715.html#paragraf-362",
+          "reference_text": "§ 362 Lehota na podanie odvolania (1) Odvolanie sa podáva v lehote 15 dní od doručenia rozhodnutia na súde, proti ktorého rozhodnutiu smeruje. Ak bolo vydané opravné uznesenie, lehota plynie znovu od doručenia opravného uznesenia len v rozsahu vykonanej opravy. (2) Odvolanie je podané včas aj vtedy, ak bolo v lehote podané na príslušnom odvolacom súde. (3) Odvolanie je podané včas aj vtedy, ak bolo podané po uplynutí lehoty podľa odseku 1 preto, že odvolateľ sa spravoval nesprávnym poučením súdu o lehote na podanie odvolania. Ak rozhodnutie neobsahuje poučenie o lehote na podanie odvolania alebo ak obsahuje nesprávne poučenie o tom, že odvolanie nie je prípustné, možno podať odvolanie do troch mesiacov od doručenia rozhodnutia. (4) Odvolanie je podané včas aj vtedy, ak bolo podané na nepríslušnom súde preto, že odvolateľ sa spravoval nesprávnym poučením o súde príslušnom na podanie odvolania. To platí aj vtedy, ak rozhodnutie neobsahuje poučenie o súde príslušnom na podanie odvolania."
+        }
+      ],
+      "answer_rubric": "Vysvetliť uvedené ustanovenia podľa priloženého znenia; zachovať podmienky a výnimky. Nepridávať nepodložené závery.",
+      "human_review": {
+        "correctness": null,
+        "completeness": null,
+        "citation_support": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LEXA-007",
+      "category": "exact",
+      "question": "Vysvetli § 274 CSP.",
+      "as_of": "2026-10-01",
+      "review_status": "pending_legal_review",
+      "expected_sources": [
+        {
+          "act_path": "/SK/ZZ/2015/160/",
+          "anchor": "paragraf-274",
+          "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2015/160/20260715.html#paragraf-274",
+          "reference_text": "§ 274 Na pojednávaní môže súd rozhodnúť o žalobe podľa § 137 písm. a) na návrh žalobcu rozsudkom pre zmeškanie, ktorým žalobe vyhovie, ak a) sa žalovaný nedostavil na pojednávanie vo veci, hoci bol naň riadne a včas predvolaný a v predvolaní na pojednávanie bol žalovaný poučený o následku nedostavenia sa vrátane možnosti vydania rozsudku pre zmeškanie a b) žalovaný neospravedlnil svoju neprítomnosť včas a vážnymi okolnosťami."
+        }
+      ],
+      "answer_rubric": "Vysvetliť uvedené ustanovenia podľa priloženého znenia; zachovať podmienky a výnimky. Nepridávať nepodložené závery.",
+      "human_review": {
+        "correctness": null,
+        "completeness": null,
+        "citation_support": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LEXA-008",
+      "category": "exact",
+      "question": "Vysvetli § 1 CSP.",
+      "as_of": "2026-10-01",
+      "review_status": "pending_legal_review",
+      "expected_sources": [
+        {
+          "act_path": "/SK/ZZ/2015/160/",
+          "anchor": "paragraf-1",
+          "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2015/160/20260715.html#paragraf-1",
+          "reference_text": "§ 1 Civilný sporový poriadok upravuje postup súdu, strán sporu (ďalej len \"strana\") a osôb zúčastnených na konaní pri prejednávaní a rozhodovaní sporov."
+        }
+      ],
+      "answer_rubric": "Vysvetliť uvedené ustanovenia podľa priloženého znenia; zachovať podmienky a výnimky. Nepridávať nepodložené závery.",
+      "human_review": {
+        "correctness": null,
+        "completeness": null,
+        "citation_support": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LEXA-009",
+      "category": "exact",
+      "question": "Vysvetli § 158 CMP.",
+      "as_of": "2026-10-01",
+      "review_status": "pending_legal_review",
+      "expected_sources": [
+        {
+          "act_path": "/SK/ZZ/2015/161/",
+          "anchor": "paragraf-158",
+          "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2015/161/20260817.html#paragraf-158",
+          "reference_text": "§ 158 Na konanie o dedičstve je miestne príslušný súd, v ktorého obvode a) mal poručiteľ v čase smrti adresu trvalého pobytu, b) sa nachádza majetok poručiteľa, ak nie je daná príslušnosť podľa písmena a), c) poručiteľ zomrel, ak nie je daná príslušnosť podľa písmena a) alebo písmena b)."
+        }
+      ],
+      "answer_rubric": "Vysvetliť uvedené ustanovenia podľa priloženého znenia; zachovať podmienky a výnimky. Nepridávať nepodložené závery.",
+      "human_review": {
+        "correctness": null,
+        "completeness": null,
+        "citation_support": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LEXA-010",
+      "category": "exact",
+      "question": "Vysvetli § 1 CMP.",
+      "as_of": "2026-10-01",
+      "review_status": "pending_legal_review",
+      "expected_sources": [
+        {
+          "act_path": "/SK/ZZ/2015/161/",
+          "anchor": "paragraf-1",
+          "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2015/161/20260817.html#paragraf-1",
+          "reference_text": "§ 1 Podľa tohto zákona súdy prejednávajú a rozhodujú veci ustanovené v tomto zákone."
+        }
+      ],
+      "answer_rubric": "Vysvetliť uvedené ustanovenia podľa priloženého znenia; zachovať podmienky a výnimky. Nepridávať nepodložené závery.",
+      "human_review": {
+        "correctness": null,
+        "completeness": null,
+        "citation_support": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LEXA-011",
+      "category": "exact",
+      "question": "Vysvetli § 54 ods. 2 SP.",
+      "as_of": "2026-10-01",
+      "review_status": "pending_legal_review",
+      "expected_sources": [
+        {
+          "act_path": "/SK/ZZ/1967/71/",
+          "anchor": "paragraf-54.odsek-2",
+          "source_url": "https://static.slov-lex.sk/static/SK/ZZ/1967/71/20180901.html#paragraf-54.odsek-2",
+          "reference_text": "(2) Odvolanie treba podať v lehote 15 dní odo dňa oznámenia rozhodnutia, ak inú lehotu neustanovuje osobitný zákon."
+        }
+      ],
+      "answer_rubric": "Vysvetliť uvedené ustanovenia podľa priloženého znenia; zachovať podmienky a výnimky. Nepridávať nepodložené závery.",
+      "human_review": {
+        "correctness": null,
+        "completeness": null,
+        "citation_support": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LEXA-012",
+      "category": "exact",
+      "question": "Vysvetli § 30 ods. 1 písm. a) SP.",
+      "as_of": "2026-10-01",
+      "review_status": "pending_legal_review",
+      "expected_sources": [
+        {
+          "act_path": "/SK/ZZ/1967/71/",
+          "anchor": "paragraf-30.odsek-1.pismeno-a",
+          "source_url": "https://static.slov-lex.sk/static/SK/ZZ/1967/71/20180901.html#paragraf-30.odsek-1.pismeno-a",
+          "reference_text": "a) zistí, že ten, kto podal návrh na začatie konania, nie je účastníkom konania a nejde o konanie, ktoré môže začať správny orgán,"
+        }
+      ],
+      "answer_rubric": "Vysvetliť uvedené ustanovenia podľa priloženého znenia; zachovať podmienky a výnimky. Nepridávať nepodložené závery.",
+      "human_review": {
+        "correctness": null,
+        "completeness": null,
+        "citation_support": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LEXA-013",
+      "category": "exact",
+      "question": "Vysvetli § 1 SP.",
+      "as_of": "2026-10-01",
+      "review_status": "pending_legal_review",
+      "expected_sources": [
+        {
+          "act_path": "/SK/ZZ/1967/71/",
+          "anchor": "paragraf-1",
+          "source_url": "https://static.slov-lex.sk/static/SK/ZZ/1967/71/20180901.html#paragraf-1",
+          "reference_text": "§ 1 (1) Tento zákon sa vzťahuje na konanie, v ktorom v oblasti verejnej správy správne orgány rozhodujú o právach, právom chránených záujmoch alebo povinnostiach fyzických osôb a právnických osôb, ak osobitný zákon neustanovuje inak. (2) Správnym orgánom je štátny orgán, orgán územnej samosprávy, orgán záujmovej samosprávy, fyzická osoba alebo právnická osoba, ktorej zákon zveril rozhodovanie o právach, právom chránených záujmoch alebo povinnostiach fyzických osôb a právnických osôb v oblasti verejnej správy."
+        }
+      ],
+      "answer_rubric": "Vysvetliť uvedené ustanovenia podľa priloženého znenia; zachovať podmienky a výnimky. Nepridávať nepodložené závery.",
+      "human_review": {
+        "correctness": null,
+        "completeness": null,
+        "citation_support": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LEXA-014",
+      "category": "exact",
+      "question": "Vysvetli § 2 ods. 1 ZoP.",
+      "as_of": "2026-10-01",
+      "review_status": "pending_legal_review",
+      "expected_sources": [
+        {
+          "act_path": "/SK/ZZ/1990/372/",
+          "anchor": "paragraf-2.odsek-1",
+          "source_url": "https://static.slov-lex.sk/static/SK/ZZ/1990/372/20260901.html#paragraf-2.odsek-1",
+          "reference_text": "(1) Priestupkom je zavinené konanie, ktoré porušuje alebo ohrozuje záujem spoločnosti a je za priestupok výslovne označené v tomto alebo v inom zákone, ak nejde o iný správny delikt postihnuteľný podľa osobitných právnych predpisov, alebo o trestný čin."
+        }
+      ],
+      "answer_rubric": "Vysvetliť uvedené ustanovenia podľa priloženého znenia; zachovať podmienky a výnimky. Nepridávať nepodložené závery.",
+      "human_review": {
+        "correctness": null,
+        "completeness": null,
+        "citation_support": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LEXA-015",
+      "category": "exact",
+      "question": "Vysvetli § 88aa ZoP.",
+      "as_of": "2026-10-01",
+      "review_status": "pending_legal_review",
+      "expected_sources": [
+        {
+          "act_path": "/SK/ZZ/1990/372/",
+          "anchor": "paragraf-88aa",
+          "source_url": "https://static.slov-lex.sk/static/SK/ZZ/1990/372/20260901.html#paragraf-88aa",
+          "reference_text": "§ 88aa (1) Rozhodnutie o uložení pokuty za priestupok podľa § 29 , § 30 ods. 1 písm. f) , § 47 , 49 a 50 a za priestupok ohrozenia výchovy a vzdelávania dieťaťa alebo zanedbania starostlivosti o povinnú školskú dochádzku dieťaťa podľa osobitného predpisu 14b ) možno vykonať aj zrážkami z dávky sociálneho poistenia, pomoci v hmotnej núdzi alebo z rodičovského príspevku, 14c ) ak ho nemožno vykonať zrážkami zo mzdy. (2) Ak sú splnené podmienky podľa odseku 1, vydá orgán uskutočňujúci výkon rozhodnutia tomu, kto páchateľovi priestupku príjem podľa odseku 1 vypláca, exekučný príkaz na vykonanie zrážok z tohto príjmu. (3) Pri výkone rozhodnutia podľa odsekov 1 a 2 sa primerane použijú ustanovenia Exekučného poriadku. (4) Výkon rozhodnutia zrážkami z príjmu podľa odseku 1 nemožno vykonať exekúciou podľa osobitného predpisu. 14d )"
+        }
+      ],
+      "answer_rubric": "Vysvetliť uvedené ustanovenia podľa priloženého znenia; zachovať podmienky a výnimky. Nepridávať nepodložené závery.",
+      "human_review": {
+        "correctness": null,
+        "completeness": null,
+        "citation_support": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LEXA-016",
+      "category": "exact",
+      "question": "Vysvetli § 212 ods. 1 písm. a) TZ.",
+      "as_of": "2026-10-01",
+      "review_status": "pending_legal_review",
+      "expected_sources": [
+        {
+          "act_path": "/SK/ZZ/2005/300/",
+          "anchor": "paragraf-212.odsek-1.pismeno-a",
+          "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2005/300/20260818.html#paragraf-212.odsek-1.pismeno-a",
+          "reference_text": "a) spôsobí tak malú škodu,"
+        }
+      ],
+      "answer_rubric": "Vysvetliť uvedené ustanovenia podľa priloženého znenia; zachovať podmienky a výnimky. Nepridávať nepodložené závery.",
+      "human_review": {
+        "correctness": null,
+        "completeness": null,
+        "citation_support": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LEXA-017",
+      "category": "exact",
+      "question": "Vysvetli § 305aa TZ.",
+      "as_of": "2026-10-01",
+      "review_status": "pending_legal_review",
+      "expected_sources": [
+        {
+          "act_path": "/SK/ZZ/2005/300/",
+          "anchor": "paragraf-305aa",
+          "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2005/300/20260818.html#paragraf-305aa",
+          "reference_text": "§ 305aa Usmrtenie spoločenského zvieraťa bez primeraného dôvodu (1) Kto bez primeraného dôvodu ustanoveného osobitným predpisom usmrtí spoločenské zviera alebo z usmrteného spoločenského zvieraťa vyrába produkt živočíšneho pôvodu alebo živočíšny vedľajší produkt, obchoduje s ním alebo ho inak scudzí, potrestá sa odňatím slobody až na tri roky. (2) Odňatím slobody na jeden rok až päť rokov sa páchateľ potrestá, ak spácha čin uvedený v odseku 1 a) na viacerých zvieratách, b) verejne alebo na mieste prístupnom verejnosti, c) z osobitného motívu, alebo d) hoci bol za taký čin v predchádzajúcich dvadsiatich štyroch mesiacoch odsúdený."
+        }
+      ],
+      "answer_rubric": "Vysvetliť uvedené ustanovenia podľa priloženého znenia; zachovať podmienky a výnimky. Nepridávať nepodložené závery.",
+      "human_review": {
+        "correctness": null,
+        "completeness": null,
+        "citation_support": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LEXA-018",
+      "category": "exact",
+      "question": "Vysvetli § 34 ods. 1 TP.",
+      "as_of": "2026-10-01",
+      "review_status": "pending_legal_review",
+      "expected_sources": [
+        {
+          "act_path": "/SK/ZZ/2005/301/",
+          "anchor": "paragraf-34.odsek-1",
+          "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2005/301/20260818.html#paragraf-34.odsek-1",
+          "reference_text": "(1) Obvinený má právo od začiatku konania proti svojej osobe vyjadriť sa ku všetkým skutočnostiam, ktoré sa mu kladú za vinu, a k dôkazom o nich, má však právo odoprieť vypovedať. Môže uvádzať okolnosti, navrhovať, predkladať a obstarávať dôkazy slúžiace na jeho obhajobu, robiť návrhy a podávať žiadosti a opravné prostriedky. Má právo zvoliť si obhajcu a s ním sa radiť aj počas úkonov vykonávaných orgánom činným v trestnom konaní alebo súdom. S obhajcom sa však v priebehu svojho výsluchu nemôže radiť o tom, ako odpovedať na položenú otázku. Môže žiadať, aby bol vypočúvaný za účasti svojho obhajcu a aby sa obhajca zúčastnil aj na iných úkonoch prípravného konania. Ak je obvinený zadržaný, vo väzbe alebo vo výkone trestu odňatia slobody, môže s obhajcom hovoriť bez prítomnosti tretej osoby; to neplatí pre telefonický rozhovor obvineného s obhajcom počas výkonu väzby, ktorého podmienky a spôsob výkonu ustanovuje osobitný predpis. Má právo v konaní pred súdom vypočúvať svedkov, ktorých sám navrhol alebo ktorých s jeho súhlasom navrhol obhajca, a klásť svedkom otázky. Obvinený môže uplatňovať svoje práva sám alebo prostredníctvom obhajcu."
+        }
+      ],
+      "answer_rubric": "Vysvetliť uvedené ustanovenia podľa priloženého znenia; zachovať podmienky a výnimky. Nepridávať nepodložené závery.",
+      "human_review": {
+        "correctness": null,
+        "completeness": null,
+        "citation_support": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LEXA-019",
+      "category": "exact",
+      "question": "Vysvetli § 1 TP.",
+      "as_of": "2026-10-01",
+      "review_status": "pending_legal_review",
+      "expected_sources": [
+        {
+          "act_path": "/SK/ZZ/2005/301/",
+          "anchor": "paragraf-1",
+          "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2005/301/20260818.html#paragraf-1",
+          "reference_text": "§ 1 Predmet zákona Trestný poriadok upravuje postup orgánov činných v trestnom konaní a súdov tak, aby trestné činy boli náležite zistené, ich páchatelia boli podľa zákona spravodlivo potrestaní a výnosy z trestnej činnosti boli odňaté, pričom treba rešpektovať základné práva a slobody fyzických osôb a právnických osôb."
+        }
+      ],
+      "answer_rubric": "Vysvetliť uvedené ustanovenia podľa priloženého znenia; zachovať podmienky a výnimky. Nepridávať nepodložené závery.",
+      "human_review": {
+        "correctness": null,
+        "completeness": null,
+        "citation_support": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LEXA-020",
+      "category": "exact",
+      "question": "Vysvetli § 1 písm. a) SSP.",
+      "as_of": "2026-10-01",
+      "review_status": "pending_legal_review",
+      "expected_sources": [
+        {
+          "act_path": "/SK/ZZ/2015/162/",
+          "anchor": "paragraf-1.odsek-1.pismeno-a",
+          "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2015/162/20260612.html#paragraf-1.odsek-1.pismeno-a",
+          "reference_text": "a) právomoc a príslušnosť správneho súdu konajúceho a rozhodujúceho v správnom súdnictve,"
+        }
+      ],
+      "answer_rubric": "Vysvetliť uvedené ustanovenia podľa priloženého znenia; zachovať podmienky a výnimky. Nepridávať nepodložené závery.",
+      "human_review": {
+        "correctness": null,
+        "completeness": null,
+        "citation_support": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LEXA-021",
+      "category": "exact",
+      "question": "Vysvetli § 362 ods. 1 CSP.",
+      "as_of": "2026-10-01",
+      "review_status": "pending_legal_review",
+      "expected_sources": [
+        {
+          "act_path": "/SK/ZZ/2015/160/",
+          "anchor": "paragraf-362.odsek-1",
+          "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2015/160/20260715.html#paragraf-362.odsek-1",
+          "reference_text": "(1) Odvolanie sa podáva v lehote 15 dní od doručenia rozhodnutia na súde, proti ktorého rozhodnutiu smeruje. Ak bolo vydané opravné uznesenie, lehota plynie znovu od doručenia opravného uznesenia len v rozsahu vykonanej opravy."
+        }
+      ],
+      "answer_rubric": "Vysvetliť uvedené ustanovenia podľa priloženého znenia; zachovať podmienky a výnimky. Nepridávať nepodložené závery.",
+      "human_review": {
+        "correctness": null,
+        "completeness": null,
+        "citation_support": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LEXA-022",
+      "category": "exact",
+      "question": "Vysvetli § 54 SP.",
+      "as_of": "2026-10-01",
+      "review_status": "pending_legal_review",
+      "expected_sources": [
+        {
+          "act_path": "/SK/ZZ/1967/71/",
+          "anchor": "paragraf-54",
+          "source_url": "https://static.slov-lex.sk/static/SK/ZZ/1967/71/20180901.html#paragraf-54",
+          "reference_text": "§ 54 (1) Odvolanie sa podáva na správnom orgáne, ktorý napadnuté rozhodnutie vydal. (2) Odvolanie treba podať v lehote 15 dní odo dňa oznámenia rozhodnutia, ak inú lehotu neustanovuje osobitný zákon. (3) Pokiaľ účastník konania v dôsledku nesprávneho poučenia alebo pre to, že nebol poučený vôbec, podal opravný prostriedok po lehote, predpokladá sa, že ho podal včas, ak tak urobil najneskôr do 3 mesiacov odo dňa oznámenia rozhodnutia. (4) Účastník konania môže odvolanie vziať späť, kým sa o ňom nerozhodlo. Ak účastník konania vzal odvolanie späť, nemôže sa znova odvolať."
+        }
+      ],
+      "answer_rubric": "Vysvetliť uvedené ustanovenia podľa priloženého znenia; zachovať podmienky a výnimky. Nepridávať nepodložené závery.",
+      "human_review": {
+        "correctness": null,
+        "completeness": null,
+        "citation_support": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LEXA-023",
+      "category": "exact",
+      "question": "Vysvetli § 1 TZ.",
+      "as_of": "2026-10-01",
+      "review_status": "pending_legal_review",
+      "expected_sources": [
+        {
+          "act_path": "/SK/ZZ/2005/300/",
+          "anchor": "paragraf-1",
+          "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2005/300/20260818.html#paragraf-1",
+          "reference_text": "§ 1 Predmet zákona Tento zákon upravuje základy trestnej zodpovednosti, druhy trestov, druhy ochranných opatrení, ich ukladanie a skutkové podstaty trestných činov."
+        }
+      ],
+      "answer_rubric": "Vysvetliť uvedené ustanovenia podľa priloženého znenia; zachovať podmienky a výnimky. Nepridávať nepodložené závery.",
+      "human_review": {
+        "correctness": null,
+        "completeness": null,
+        "citation_support": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LEXA-024",
+      "category": "exact",
+      "question": "Vysvetli § 1 ZoP.",
+      "as_of": "2026-10-01",
+      "review_status": "pending_legal_review",
+      "expected_sources": [
+        {
+          "act_path": "/SK/ZZ/1990/372/",
+          "anchor": "paragraf-1",
+          "source_url": "https://static.slov-lex.sk/static/SK/ZZ/1990/372/20260901.html#paragraf-1",
+          "reference_text": "§ 1 Orgány štátnej správy Slovenskej republiky a obce vedú občanov k tomu, aby dodržiavali zákony a ostatné právne predpisy a rešpektovali práva spoluobčanov; dbajú najmä o to, aby občania nesťažovali plnenie úloh štátnej správy a obcí a nenarúšali verejný poriadok a občianske spolunažívanie."
+        }
+      ],
+      "answer_rubric": "Vysvetliť uvedené ustanovenia podľa priloženého znenia; zachovať podmienky a výnimky. Nepridávať nepodložené závery.",
+      "human_review": {
+        "correctness": null,
+        "completeness": null,
+        "citation_support": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LEXA-025",
+      "category": "multiple",
+      "question": "Porovnaj § 54 SP a § 181 SSP.",
+      "as_of": "2026-10-01",
+      "review_status": "pending_legal_review",
+      "expected_sources": [
+        {
+          "act_path": "/SK/ZZ/1967/71/",
+          "anchor": "paragraf-54",
+          "source_url": "https://static.slov-lex.sk/static/SK/ZZ/1967/71/20180901.html#paragraf-54",
+          "reference_text": "§ 54 (1) Odvolanie sa podáva na správnom orgáne, ktorý napadnuté rozhodnutie vydal. (2) Odvolanie treba podať v lehote 15 dní odo dňa oznámenia rozhodnutia, ak inú lehotu neustanovuje osobitný zákon. (3) Pokiaľ účastník konania v dôsledku nesprávneho poučenia alebo pre to, že nebol poučený vôbec, podal opravný prostriedok po lehote, predpokladá sa, že ho podal včas, ak tak urobil najneskôr do 3 mesiacov odo dňa oznámenia rozhodnutia. (4) Účastník konania môže odvolanie vziať späť, kým sa o ňom nerozhodlo. Ak účastník konania vzal odvolanie späť, nemôže sa znova odvolať."
+        },
+        {
+          "act_path": "/SK/ZZ/2015/162/",
+          "anchor": "paragraf-181",
+          "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2015/162/20260612.html#paragraf-181",
+          "reference_text": "§ 181 Lehota na podanie správnej žaloby (1) Fyzická osoba alebo právnická osoba musí správnu žalobu podať v lehote dvoch mesiacov od oznámenia rozhodnutia orgánu verejnej správy alebo opatrenia orgánu verejnej správy, proti ktorému smeruje, ak tento zákon alebo osobitný predpis neustanovuje inak. (2) Prokurátor musí správnu žalobu podať v lehote dvoch mesiacov od právoplatnosti rozhodnutia orgánu verejnej správy o nevyhovení protestu prokurátora. (3) Zainteresovaná verejnosť musí správnu žalobu podať v lehote dvoch mesiacov od právoplatnosti rozhodnutia orgánu verejnej správy alebo vydania opatrenia orgánu verejnej správy. (4) Zmeškanie lehoty podľa odsekov 1 až 3 nemožno odpustiť."
+        }
+      ],
+      "answer_rubric": "Vysvetliť uvedené ustanovenia podľa priloženého znenia; zachovať podmienky a výnimky. Nepridávať nepodložené závery.",
+      "human_review": {
+        "correctness": null,
+        "completeness": null,
+        "citation_support": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LEXA-026",
+      "category": "multiple",
+      "question": "Vysvetli § 181 a § 182 SSP.",
+      "as_of": "2026-10-01",
+      "review_status": "pending_legal_review",
+      "expected_sources": [
+        {
+          "act_path": "/SK/ZZ/2015/162/",
+          "anchor": "paragraf-181",
+          "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2015/162/20260612.html#paragraf-181",
+          "reference_text": "§ 181 Lehota na podanie správnej žaloby (1) Fyzická osoba alebo právnická osoba musí správnu žalobu podať v lehote dvoch mesiacov od oznámenia rozhodnutia orgánu verejnej správy alebo opatrenia orgánu verejnej správy, proti ktorému smeruje, ak tento zákon alebo osobitný predpis neustanovuje inak. (2) Prokurátor musí správnu žalobu podať v lehote dvoch mesiacov od právoplatnosti rozhodnutia orgánu verejnej správy o nevyhovení protestu prokurátora. (3) Zainteresovaná verejnosť musí správnu žalobu podať v lehote dvoch mesiacov od právoplatnosti rozhodnutia orgánu verejnej správy alebo vydania opatrenia orgánu verejnej správy. (4) Zmeškanie lehoty podľa odsekov 1 až 3 nemožno odpustiť."
+        },
+        {
+          "act_path": "/SK/ZZ/2015/162/",
+          "anchor": "paragraf-182",
+          "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2015/162/20260612.html#paragraf-182",
+          "reference_text": "§ 182 (1) V správnej žalobe sa musí okrem všeobecných náležitostí podania podľa § 57 uviesť a) označenie druhu žaloby, b) označenie žalovaného, ďalších účastníkov podľa § 32 ods. 3 a osôb zúčastnených na konaní podľa § 41 ods. 1 , c) označenie napadnutého rozhodnutia alebo opatrenia a deň jeho vydania, prípadne označenie výrokov, ktoré žalobca napáda, ak sú tieto samostatné a oddeliteľné a žaloba nesmeruje voči celému rozhodnutiu alebo opatreniu, d) deň oznámenia napadnutého rozhodnutia alebo opatrenia žalobcovi podľa § 181 ods. 1 alebo deň právoplatnosti rozhodnutia o nevyhovení protestu prokurátora podľa § 181 ods. 2 alebo deň právoplatnosti napadnutého rozhodnutia alebo opatrenia podľa § 181 ods. 3 alebo uvedenie, že žalobca sa považuje za opomenutého účastníka, alebo že žalovaný doručoval napadnuté rozhodnutie alebo opatrenie verejnou vyhláškou, e) dôvody žaloby, z ktorých musí byť zrejmé, z akých konkrétnych skutkových a právnych dôvodov žalobca považuje napadnuté výroky rozhodnutia alebo opatrenia za nezákonné (ďalej len „žalobné body“), f) označenie dôkazov, ak ich žalobca navrhuje vykonať, g) vyjadrenie, či žalobca žiada nariadenie pojednávania; na neskoršiu žiadosť žalobcu o nariadenie pojednávania správny súd neprihliada, h) návrh výroku rozhodnutia (ďalej len „žalobný návrh“). (2) K správnej žalobe musí byť pripojené a) splnomocnenie udelené advokátom, ak nejde o výnimky uvedené v § 49 ods. 1 a 2 , b) potvrdenie o požadovanom vzdelaní žalobcu, jeho zamestnanca alebo člena podľa § 49 ods. 1, c) jedno vyhotovenie napadnutého rozhodnutia orgánu verejnej správy alebo opatrenia orgánu verejnej správy, ak nejde o opomenutého účastníka podľa § 179 ods. 1 , alebo jedno vyhotovenie rozhodnutia orgánu verejnej správy o nevyhovení protestu prokurátora vydané v poslednom stupni, ak ide o správnu žalobu podanú prokurátorom."
+        }
+      ],
+      "answer_rubric": "Vysvetliť uvedené ustanovenia podľa priloženého znenia; zachovať podmienky a výnimky. Nepridávať nepodložené závery.",
+      "human_review": {
+        "correctness": null,
+        "completeness": null,
+        "citation_support": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LEXA-027",
+      "category": "multiple",
+      "question": "Vysvetli § 181 a 182 SSP.",
+      "as_of": "2026-10-01",
+      "review_status": "pending_legal_review",
+      "expected_sources": [
+        {
+          "act_path": "/SK/ZZ/2015/162/",
+          "anchor": "paragraf-181",
+          "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2015/162/20260612.html#paragraf-181",
+          "reference_text": "§ 181 Lehota na podanie správnej žaloby (1) Fyzická osoba alebo právnická osoba musí správnu žalobu podať v lehote dvoch mesiacov od oznámenia rozhodnutia orgánu verejnej správy alebo opatrenia orgánu verejnej správy, proti ktorému smeruje, ak tento zákon alebo osobitný predpis neustanovuje inak. (2) Prokurátor musí správnu žalobu podať v lehote dvoch mesiacov od právoplatnosti rozhodnutia orgánu verejnej správy o nevyhovení protestu prokurátora. (3) Zainteresovaná verejnosť musí správnu žalobu podať v lehote dvoch mesiacov od právoplatnosti rozhodnutia orgánu verejnej správy alebo vydania opatrenia orgánu verejnej správy. (4) Zmeškanie lehoty podľa odsekov 1 až 3 nemožno odpustiť."
+        },
+        {
+          "act_path": "/SK/ZZ/2015/162/",
+          "anchor": "paragraf-182",
+          "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2015/162/20260612.html#paragraf-182",
+          "reference_text": "§ 182 (1) V správnej žalobe sa musí okrem všeobecných náležitostí podania podľa § 57 uviesť a) označenie druhu žaloby, b) označenie žalovaného, ďalších účastníkov podľa § 32 ods. 3 a osôb zúčastnených na konaní podľa § 41 ods. 1 , c) označenie napadnutého rozhodnutia alebo opatrenia a deň jeho vydania, prípadne označenie výrokov, ktoré žalobca napáda, ak sú tieto samostatné a oddeliteľné a žaloba nesmeruje voči celému rozhodnutiu alebo opatreniu, d) deň oznámenia napadnutého rozhodnutia alebo opatrenia žalobcovi podľa § 181 ods. 1 alebo deň právoplatnosti rozhodnutia o nevyhovení protestu prokurátora podľa § 181 ods. 2 alebo deň právoplatnosti napadnutého rozhodnutia alebo opatrenia podľa § 181 ods. 3 alebo uvedenie, že žalobca sa považuje za opomenutého účastníka, alebo že žalovaný doručoval napadnuté rozhodnutie alebo opatrenie verejnou vyhláškou, e) dôvody žaloby, z ktorých musí byť zrejmé, z akých konkrétnych skutkových a právnych dôvodov žalobca považuje napadnuté výroky rozhodnutia alebo opatrenia za nezákonné (ďalej len „žalobné body“), f) označenie dôkazov, ak ich žalobca navrhuje vykonať, g) vyjadrenie, či žalobca žiada nariadenie pojednávania; na neskoršiu žiadosť žalobcu o nariadenie pojednávania správny súd neprihliada, h) návrh výroku rozhodnutia (ďalej len „žalobný návrh“). (2) K správnej žalobe musí byť pripojené a) splnomocnenie udelené advokátom, ak nejde o výnimky uvedené v § 49 ods. 1 a 2 , b) potvrdenie o požadovanom vzdelaní žalobcu, jeho zamestnanca alebo člena podľa § 49 ods. 1, c) jedno vyhotovenie napadnutého rozhodnutia orgánu verejnej správy alebo opatrenia orgánu verejnej správy, ak nejde o opomenutého účastníka podľa § 179 ods. 1 , alebo jedno vyhotovenie rozhodnutia orgánu verejnej správy o nevyhovení protestu prokurátora vydané v poslednom stupni, ak ide o správnu žalobu podanú prokurátorom."
+        }
+      ],
+      "answer_rubric": "Vysvetliť uvedené ustanovenia podľa priloženého znenia; zachovať podmienky a výnimky. Nepridávať nepodložené závery.",
+      "human_review": {
+        "correctness": null,
+        "completeness": null,
+        "citation_support": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LEXA-028",
+      "category": "multiple",
+      "question": "Vysvetli § 49, 57 a 181 SSP.",
+      "as_of": "2026-10-01",
+      "review_status": "pending_legal_review",
+      "expected_sources": [
+        {
+          "act_path": "/SK/ZZ/2015/162/",
+          "anchor": "paragraf-49",
+          "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2015/162/20260612.html#paragraf-49",
+          "reference_text": "§ 49 (1) Žalobca musí byť v konaní pred správnym súdom zastúpený advokátom; to neplatí, ak má žalobca, jeho zamestnanec alebo člen, ktorý za neho na správnom súde koná alebo ho zastupuje, vysokoškolské právnické vzdelanie druhého stupňa. Povinnosť zastúpenia sa vzťahuje aj na spísanie žaloby. Splnomocnenie udelené advokátovi nemožno obmedziť. (2) Žalobca nemusí byť zastúpený podľa odseku 1 a) v konaní podľa § 23 ods. 2 písm. e) až g) , b) v konaní podľa § 6 ods. 2 písm. b) až e) , g) , i) a j) , c) v konaní o správnej žalobe vo veciach slobodného prístupu k informáciám podľa osobitného predpisu, d) ak je žalovaným Centrum právnej pomoci. (3) Advokát je oprávnený dať sa v konaní zastupovať iným advokátom."
+        },
+        {
+          "act_path": "/SK/ZZ/2015/162/",
+          "anchor": "paragraf-57",
+          "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2015/162/20260612.html#paragraf-57",
+          "reference_text": "§ 57 (1) Ak tento zákon na podanie nevyžaduje osobitné náležitosti, v podaní sa uvedie, a) ktorému správnemu súdu je určené, b) kto ho robí, c) ktorej veci sa týka, d) čo sa ním sleduje a e) podpis. (2) Ak ide o podanie urobené v prebiehajúcom konaní, náležitosťou podania je aj uvedenie spisovej značky tohto konania."
+        },
+        {
+          "act_path": "/SK/ZZ/2015/162/",
+          "anchor": "paragraf-181",
+          "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2015/162/20260612.html#paragraf-181",
+          "reference_text": "§ 181 Lehota na podanie správnej žaloby (1) Fyzická osoba alebo právnická osoba musí správnu žalobu podať v lehote dvoch mesiacov od oznámenia rozhodnutia orgánu verejnej správy alebo opatrenia orgánu verejnej správy, proti ktorému smeruje, ak tento zákon alebo osobitný predpis neustanovuje inak. (2) Prokurátor musí správnu žalobu podať v lehote dvoch mesiacov od právoplatnosti rozhodnutia orgánu verejnej správy o nevyhovení protestu prokurátora. (3) Zainteresovaná verejnosť musí správnu žalobu podať v lehote dvoch mesiacov od právoplatnosti rozhodnutia orgánu verejnej správy alebo vydania opatrenia orgánu verejnej správy. (4) Zmeškanie lehoty podľa odsekov 1 až 3 nemožno odpustiť."
+        }
+      ],
+      "answer_rubric": "Vysvetliť uvedené ustanovenia podľa priloženého znenia; zachovať podmienky a výnimky. Nepridávať nepodložené závery.",
+      "human_review": {
+        "correctness": null,
+        "completeness": null,
+        "citation_support": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LEXA-029",
+      "category": "multiple",
+      "question": "Porovnaj § 1 CSP a § 1 CMP.",
+      "as_of": "2026-10-01",
+      "review_status": "pending_legal_review",
+      "expected_sources": [
+        {
+          "act_path": "/SK/ZZ/2015/160/",
+          "anchor": "paragraf-1",
+          "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2015/160/20260715.html#paragraf-1",
+          "reference_text": "§ 1 Civilný sporový poriadok upravuje postup súdu, strán sporu (ďalej len \"strana\") a osôb zúčastnených na konaní pri prejednávaní a rozhodovaní sporov."
+        },
+        {
+          "act_path": "/SK/ZZ/2015/161/",
+          "anchor": "paragraf-1",
+          "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2015/161/20260817.html#paragraf-1",
+          "reference_text": "§ 1 Podľa tohto zákona súdy prejednávajú a rozhodujú veci ustanovené v tomto zákone."
+        }
+      ],
+      "answer_rubric": "Vysvetliť uvedené ustanovenia podľa priloženého znenia; zachovať podmienky a výnimky. Nepridávať nepodložené závery.",
+      "human_review": {
+        "correctness": null,
+        "completeness": null,
+        "citation_support": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LEXA-030",
+      "category": "multiple",
+      "question": "Porovnaj § 54 ods. 2 SP a § 362 ods. 1 CSP.",
+      "as_of": "2026-10-01",
+      "review_status": "pending_legal_review",
+      "expected_sources": [
+        {
+          "act_path": "/SK/ZZ/1967/71/",
+          "anchor": "paragraf-54.odsek-2",
+          "source_url": "https://static.slov-lex.sk/static/SK/ZZ/1967/71/20180901.html#paragraf-54.odsek-2",
+          "reference_text": "(2) Odvolanie treba podať v lehote 15 dní odo dňa oznámenia rozhodnutia, ak inú lehotu neustanovuje osobitný zákon."
+        },
+        {
+          "act_path": "/SK/ZZ/2015/160/",
+          "anchor": "paragraf-362.odsek-1",
+          "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2015/160/20260715.html#paragraf-362.odsek-1",
+          "reference_text": "(1) Odvolanie sa podáva v lehote 15 dní od doručenia rozhodnutia na súde, proti ktorého rozhodnutiu smeruje. Ak bolo vydané opravné uznesenie, lehota plynie znovu od doručenia opravného uznesenia len v rozsahu vykonanej opravy."
+        }
+      ],
+      "answer_rubric": "Vysvetliť uvedené ustanovenia podľa priloženého znenia; zachovať podmienky a výnimky. Nepridávať nepodložené závery.",
+      "human_review": {
+        "correctness": null,
+        "completeness": null,
+        "citation_support": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LEXA-031",
+      "category": "multiple",
+      "question": "Vysvetli § 34 TP a § 212 TZ.",
+      "as_of": "2026-10-01",
+      "review_status": "pending_legal_review",
+      "expected_sources": [
+        {
+          "act_path": "/SK/ZZ/2005/301/",
+          "anchor": "paragraf-34",
+          "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2005/301/20260818.html#paragraf-34",
+          "reference_text": "§ 34 Práva a povinnosti obvineného (1) Obvinený má právo od začiatku konania proti svojej osobe vyjadriť sa ku všetkým skutočnostiam, ktoré sa mu kladú za vinu, a k dôkazom o nich, má však právo odoprieť vypovedať. Môže uvádzať okolnosti, navrhovať, predkladať a obstarávať dôkazy slúžiace na jeho obhajobu, robiť návrhy a podávať žiadosti a opravné prostriedky. Má právo zvoliť si obhajcu a s ním sa radiť aj počas úkonov vykonávaných orgánom činným v trestnom konaní alebo súdom. S obhajcom sa však v priebehu svojho výsluchu nemôže radiť o tom, ako odpovedať na položenú otázku. Môže žiadať, aby bol vypočúvaný za účasti svojho obhajcu a aby sa obhajca zúčastnil aj na iných úkonoch prípravného konania. Ak je obvinený zadržaný, vo väzbe alebo vo výkone trestu odňatia slobody, môže s obhajcom hovoriť bez prítomnosti tretej osoby; to neplatí pre telefonický rozhovor obvineného s obhajcom počas výkonu väzby, ktorého podmienky a spôsob výkonu ustanovuje osobitný predpis. Má právo v konaní pred súdom vypočúvať svedkov, ktorých sám navrhol alebo ktorých s jeho súhlasom navrhol obhajca, a klásť svedkom otázky. Obvinený môže uplatňovať svoje práva sám alebo prostredníctvom obhajcu. (2) Obvinený môže už na začiatku konania pred súdom prvého stupňa uplatniť všetky dôkazy, ktoré sú mu známe a ktoré navrhne vykonať. Ak po podaní obžaloby podá obvinený návrh na vykonanie dôkazov pred začatím konania na súde prvého stupňa, súd je povinný takýto návrh bez meškania doručiť prokurátorovi a poškodenému. (3) Obvinený, ktorý nemá dostatočné prostriedky na úhradu trov obhajoby, má nárok na bezplatnú obhajobu alebo na obhajobu za zníženú odmenu; nárok na bezplatnú obhajobu alebo obhajobu za zníženú odmenu musí obvinený preukázať najneskôr pri rozhodovaní o náhrade trov trestného konania a ak ide o ustanovenie obhajcu podľa § 40 ods. 2 , najneskôr do 30 dní po tom, čo mu bolo doručené opatrenie o ustanovení obhajcu. (4) Na žiadosť obvineného, ktorý bol zadržaný alebo zatknutý, orgán činný v trestnom konaní bezodkladne vyrozumie o tejto skutočnosti rodinného príslušníka alebo inú osobu, ktorú označí a uvedie údaje potrebné na vyrozumenie. Vyrozumenie nevykoná, ak by tým došlo k zmareniu objasnenia a vyšetrenia veci. Ak je zadržanou alebo zatknutou osobou mladistvý, vyrozumie o tejto skutočnosti bez zbytočného odkladu zákonného zástupcu mladistvého, orgán sociálnoprávnej ochrany detí a sociálnej kurately, a ak má mladistvý ustanoveného opatrovníka aj jeho; ak je vyrozumenie zákonného zástupcu mladistvého v rozpore s najlepším záujmom mladistvého, vyrozumie inú vhodnú dospelú osobu. Ak ide o cudzinca, orgán činný v trestnom konaní na žiadosť cudzinca vyrozumie o tejto skutočnosti konzulárny úrad štátu, ktorého je cudzinec občanom alebo na ktorého území má trvalý pobyt; cudzinec má právo komunikovať s týmto konzulárnym úradom. Obvinený, ktorý bol zadržaný alebo zatknutý má právo najviac dvakrát počas obmedzenia osobnej slobody na vlastné náklady komunikovať prostredníctvom telefónneho zariadenia s osobou, ktorú označí, ak tým nedôjde k ohrozeniu účelu trestného konania a je to technicky možné, a to v trvaní najviac 20 minút. Počas telefonického hovoru obvineného, ktorý bol zadržaný alebo zatknutý, je vždy prítomný policajt, ktorý je oprávnený ukončiť hovor, ak je z jeho obsahu zrejmé, že je marený účel trestného konania. (5) Orgány činné v trestnom konaní a súd sú povinné vždy obvineného o jeho právach poučiť vrátane významu priznania a poskytnúť mu plnú možnosť na ich uplatnenie. Ak je obvineným mladistvý, orgány činné v trestnom konaní sú povinné poučiť o jeho právach aj zákonného zástupcu obvineného. Poučenie sa obvinenému v prípade potreby primerane vysvetlí. Obvineného, ktorý bol zadržaný alebo zatknutý, je potrebné poučiť aj o práve na naliehavú lekársku pomoc, o práve nazerať do spisov a o maximálnej lehote, počas ktorej môže byť obmedzený na slobode, kým nebude odovzdaný súdu. (6) Orgán činný v trestnom konaní obvinenému, ktorý bol zadržaný alebo zatknutý, poskytne bez zbytočného odkladu poučenie o jeho právach v písomnej forme; táto skutočnosť sa poznamená v zápisnici. Obvinený má právo ponechať si toto poučenie u seba po celú dobu obmedzenia osobnej slobody. (7) Orgán činný v trestnom konaní obvineného poučí, že je povinný uviesť adresu, na ktorú sa mu majú písomnosti doručovať vrátane písomností určených do vlastných rúk, ako aj spôsob doručovania s tým, že ak túto adresu alebo spôsob doručovania zmení, musí takú skutočnosť bez meškania oznámiť príslušnému orgánu, a zároveň ho upozorní, že zásielky doručované na túto adresu sa budú považovať za doručené riadne a včas aj vtedy, ak ich nepreberie, vrátane predvolania na hlavné pojednávanie alebo verejné zasadnutie, ktoré sa v takom prípade môže konať aj v jeho neprítomnosti. Rovnako obvineného poučí v konaní pred súdom súd."
+        },
+        {
+          "act_path": "/SK/ZZ/2005/300/",
+          "anchor": "paragraf-212",
+          "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2005/300/20260818.html#paragraf-212",
+          "reference_text": "§ 212 Krádež (1) Kto si prisvojí cudziu vec tým, že sa jej zmocní a a) spôsobí tak malú škodu, b) čin spácha vlámaním, c) bezprostredne po čine sa pokúsi uchovať si vec násilím alebo hrozbou bezprostredného násilia, d) čin spácha na veci, ktorú má iný na sebe alebo pri sebe, e) takou vecou je vec z úrody z pozemku, ktorý patrí do poľnohospodárskeho pôdneho fondu, alebo drevo nachádzajúce sa na lesnom pozemku, alebo ryba z rybníka s intenzívnym chovom, f) čin spácha na veci, ktorej odber podlieha spoplatneniu na základe osobitného predpisu, alebo g) bol za dva obdobné činy v predchádzajúcich dvanástich mesiacoch postihnutý, potrestá sa odňatím slobody až na dva roky. (2) Odňatím slobody na jeden rok až štyri roky sa páchateľ potrestá, ak spácha čin uvedený v odseku 1 a) a spôsobí ním väčšiu škodu, b) hoci bol za taký čin v predchádzajúcich dvadsiatich štyroch mesiacoch odsúdený, alebo c) z osobitného motívu. (3) Odňatím slobody na dva roky až osem rokov sa páchateľ potrestá, ak spácha čin uvedený v odseku 1 a) a spôsobí ním značnú škodu, b) závažnejším spôsobom konania, c) na mieste požívajúcom pietu alebo všeobecnú úctu alebo na mieste konania verejného zhromaždenia alebo obradu, d) na veci, ktorá požíva ochranu podľa osobitného predpisu, e) tým, že taký čin zorganizuje, alebo f) na chránenej osobe. (4) Odňatím slobody na tri roky až desať rokov sa páchateľ potrestá, ak spácha čin uvedený v odseku 1 a) a spôsobí ním škodu veľkého rozsahu, b) ako člen nebezpečného zoskupenia, alebo c) za krízovej situácie."
+        }
+      ],
+      "answer_rubric": "Vysvetliť uvedené ustanovenia podľa priloženého znenia; zachovať podmienky a výnimky. Nepridávať nepodložené závery.",
+      "human_review": {
+        "correctness": null,
+        "completeness": null,
+        "citation_support": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LEXA-032",
+      "category": "multiple",
+      "question": "Vysvetli § 181 ods. 1 a § 181 ods. 4 SSP.",
+      "as_of": "2026-10-01",
+      "review_status": "pending_legal_review",
+      "expected_sources": [
+        {
+          "act_path": "/SK/ZZ/2015/162/",
+          "anchor": "paragraf-181.odsek-1",
+          "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2015/162/20260612.html#paragraf-181.odsek-1",
+          "reference_text": "(1) Fyzická osoba alebo právnická osoba musí správnu žalobu podať v lehote dvoch mesiacov od oznámenia rozhodnutia orgánu verejnej správy alebo opatrenia orgánu verejnej správy, proti ktorému smeruje, ak tento zákon alebo osobitný predpis neustanovuje inak."
+        },
+        {
+          "act_path": "/SK/ZZ/2015/162/",
+          "anchor": "paragraf-181.odsek-4",
+          "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2015/162/20260612.html#paragraf-181.odsek-4",
+          "reference_text": "(4) Zmeškanie lehoty podľa odsekov 1 až 3 nemožno odpustiť."
+        }
+      ],
+      "answer_rubric": "Vysvetliť uvedené ustanovenia podľa priloženého znenia; zachovať podmienky a výnimky. Nepridávať nepodložené závery.",
+      "human_review": {
+        "correctness": null,
+        "completeness": null,
+        "citation_support": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LEXA-033",
+      "category": "multiple",
+      "question": "Vysvetli § 2 ZoP a § 1 TZ.",
+      "as_of": "2026-10-01",
+      "review_status": "pending_legal_review",
+      "expected_sources": [
+        {
+          "act_path": "/SK/ZZ/1990/372/",
+          "anchor": "paragraf-2",
+          "source_url": "https://static.slov-lex.sk/static/SK/ZZ/1990/372/20260901.html#paragraf-2",
+          "reference_text": "§ 2 Pojem priestupku (1) Priestupkom je zavinené konanie, ktoré porušuje alebo ohrozuje záujem spoločnosti a je za priestupok výslovne označené v tomto alebo v inom zákone, ak nejde o iný správny delikt postihnuteľný podľa osobitných právnych predpisov, alebo o trestný čin. (2) Priestupkom nie je konanie, ktorým niekto odvracia a) primeraným spôsobom priamo hroziaci útok na záujem chránený zákonom alebo b) nebezpečenstvo priamo hroziace záujmu chránenému zákonom, ak týmto konaním nebol spôsobený zrejme rovnako závažný následok ako ten, ktorý hrozil, a toto nebezpečenstvo nebolo možné v danej situácii odstrániť inak. (3) Ak to povaha priestupku umožňuje, priestupku je možné sa dopustiť aj prostredníctvom elektronickej komunikačnej služby."
+        },
+        {
+          "act_path": "/SK/ZZ/2005/300/",
+          "anchor": "paragraf-1",
+          "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2005/300/20260818.html#paragraf-1",
+          "reference_text": "§ 1 Predmet zákona Tento zákon upravuje základy trestnej zodpovednosti, druhy trestov, druhy ochranných opatrení, ich ukladanie a skutkové podstaty trestných činov."
+        }
+      ],
+      "answer_rubric": "Vysvetliť uvedené ustanovenia podľa priloženého znenia; zachovať podmienky a výnimky. Nepridávať nepodložené závery.",
+      "human_review": {
+        "correctness": null,
+        "completeness": null,
+        "citation_support": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LEXA-034",
+      "category": "multiple",
+      "question": "Vysvetli § 54 a 55 SP.",
+      "as_of": "2026-10-01",
+      "review_status": "pending_legal_review",
+      "expected_sources": [
+        {
+          "act_path": "/SK/ZZ/1967/71/",
+          "anchor": "paragraf-54",
+          "source_url": "https://static.slov-lex.sk/static/SK/ZZ/1967/71/20180901.html#paragraf-54",
+          "reference_text": "§ 54 (1) Odvolanie sa podáva na správnom orgáne, ktorý napadnuté rozhodnutie vydal. (2) Odvolanie treba podať v lehote 15 dní odo dňa oznámenia rozhodnutia, ak inú lehotu neustanovuje osobitný zákon. (3) Pokiaľ účastník konania v dôsledku nesprávneho poučenia alebo pre to, že nebol poučený vôbec, podal opravný prostriedok po lehote, predpokladá sa, že ho podal včas, ak tak urobil najneskôr do 3 mesiacov odo dňa oznámenia rozhodnutia. (4) Účastník konania môže odvolanie vziať späť, kým sa o ňom nerozhodlo. Ak účastník konania vzal odvolanie späť, nemôže sa znova odvolať."
+        },
+        {
+          "act_path": "/SK/ZZ/1967/71/",
+          "anchor": "paragraf-55",
+          "source_url": "https://static.slov-lex.sk/static/SK/ZZ/1967/71/20180901.html#paragraf-55",
+          "reference_text": "§ 55 (1) Pokiaľ osobitný zákon neustanovuje inak, včas podané odvolanie má odkladný účinok. (2) Ak to vyžaduje naliehavý všeobecný záujem alebo ak je nebezpečenstvo, že odkladom výkonu rozhodnutia utrpí účastník konania alebo niekto iný nenahraditeľnú ujmu, môže správny orgán odkladný účinok vylúčiť; naliehavosť treba riadne odôvodniť. Odkladný účinok nemožno vylúčiť, ak tak ustanovuje osobitný zákon. (3) Proti rozhodnutiu o vylúčení odkladného účinku sa nemožno odvolať."
+        }
+      ],
+      "answer_rubric": "Vysvetliť uvedené ustanovenia podľa priloženého znenia; zachovať podmienky a výnimky. Nepridávať nepodložené závery.",
+      "human_review": {
+        "correctness": null,
+        "completeness": null,
+        "citation_support": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LEXA-035",
+      "category": "multiple",
+      "question": "Vysvetli § 158 a § 159 CMP.",
+      "as_of": "2026-10-01",
+      "review_status": "pending_legal_review",
+      "expected_sources": [
+        {
+          "act_path": "/SK/ZZ/2015/161/",
+          "anchor": "paragraf-158",
+          "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2015/161/20260817.html#paragraf-158",
+          "reference_text": "§ 158 Na konanie o dedičstve je miestne príslušný súd, v ktorého obvode a) mal poručiteľ v čase smrti adresu trvalého pobytu, b) sa nachádza majetok poručiteľa, ak nie je daná príslušnosť podľa písmena a), c) poručiteľ zomrel, ak nie je daná príslušnosť podľa písmena a) alebo písmena b)."
+        },
+        {
+          "act_path": "/SK/ZZ/2015/161/",
+          "anchor": "paragraf-159",
+          "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2015/161/20260817.html#paragraf-159",
+          "reference_text": "§ 159 Na dodatočné konanie o dedičstve je miestne príslušný súd, na ktorom bolo konanie o dedičstve skončené."
+        }
+      ],
+      "answer_rubric": "Vysvetliť uvedené ustanovenia podľa priloženého znenia; zachovať podmienky a výnimky. Nepridávať nepodložené závery.",
+      "human_review": {
+        "correctness": null,
+        "completeness": null,
+        "citation_support": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LEXA-036",
+      "category": "multiple",
+      "question": "Vysvetli § 362 a § 363 CSP.",
+      "as_of": "2026-10-01",
+      "review_status": "pending_legal_review",
+      "expected_sources": [
+        {
+          "act_path": "/SK/ZZ/2015/160/",
+          "anchor": "paragraf-362",
+          "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2015/160/20260715.html#paragraf-362",
+          "reference_text": "§ 362 Lehota na podanie odvolania (1) Odvolanie sa podáva v lehote 15 dní od doručenia rozhodnutia na súde, proti ktorého rozhodnutiu smeruje. Ak bolo vydané opravné uznesenie, lehota plynie znovu od doručenia opravného uznesenia len v rozsahu vykonanej opravy. (2) Odvolanie je podané včas aj vtedy, ak bolo v lehote podané na príslušnom odvolacom súde. (3) Odvolanie je podané včas aj vtedy, ak bolo podané po uplynutí lehoty podľa odseku 1 preto, že odvolateľ sa spravoval nesprávnym poučením súdu o lehote na podanie odvolania. Ak rozhodnutie neobsahuje poučenie o lehote na podanie odvolania alebo ak obsahuje nesprávne poučenie o tom, že odvolanie nie je prípustné, možno podať odvolanie do troch mesiacov od doručenia rozhodnutia. (4) Odvolanie je podané včas aj vtedy, ak bolo podané na nepríslušnom súde preto, že odvolateľ sa spravoval nesprávnym poučením o súde príslušnom na podanie odvolania. To platí aj vtedy, ak rozhodnutie neobsahuje poučenie o súde príslušnom na podanie odvolania."
+        },
+        {
+          "act_path": "/SK/ZZ/2015/160/",
+          "anchor": "paragraf-363",
+          "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2015/160/20260715.html#paragraf-363",
+          "reference_text": "§ 363 V odvolaní sa popri všeobecných náležitostiach podania uvedie, proti ktorému rozhodnutiu smeruje, v akom rozsahu sa napáda, z akých dôvodov sa rozhodnutie považuje za nesprávne (odvolacie dôvody) a čoho sa odvolateľ domáha (odvolací návrh)."
+        }
+      ],
+      "answer_rubric": "Vysvetliť uvedené ustanovenia podľa priloženého znenia; zachovať podmienky a výnimky. Nepridávať nepodložené závery.",
+      "human_review": {
+        "correctness": null,
+        "completeness": null,
+        "citation_support": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LEXA-037",
+      "category": "natural",
+      "question": "Aká je lehota na podanie správnej žaloby proti rozhodnutiu orgánu verejnej správy?",
+      "as_of": "2026-10-01",
+      "review_status": "pending_legal_review",
+      "expected_sources": [
+        {
+          "act_path": "/SK/ZZ/2015/162/",
+          "anchor": "paragraf-181",
+          "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2015/162/20260612.html#paragraf-181",
+          "reference_text": "§ 181 Lehota na podanie správnej žaloby (1) Fyzická osoba alebo právnická osoba musí správnu žalobu podať v lehote dvoch mesiacov od oznámenia rozhodnutia orgánu verejnej správy alebo opatrenia orgánu verejnej správy, proti ktorému smeruje, ak tento zákon alebo osobitný predpis neustanovuje inak. (2) Prokurátor musí správnu žalobu podať v lehote dvoch mesiacov od právoplatnosti rozhodnutia orgánu verejnej správy o nevyhovení protestu prokurátora. (3) Zainteresovaná verejnosť musí správnu žalobu podať v lehote dvoch mesiacov od právoplatnosti rozhodnutia orgánu verejnej správy alebo vydania opatrenia orgánu verejnej správy. (4) Zmeškanie lehoty podľa odsekov 1 až 3 nemožno odpustiť."
+        }
+      ],
+      "answer_rubric": "Rozlíšiť osoby, začiatok plynutia, zákonné výnimky a neodpustiteľnosť zmeškania. Bez skutkových údajov neurčiť posledný deň.",
+      "human_review": {
+        "correctness": null,
+        "completeness": null,
+        "citation_support": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LEXA-038",
+      "category": "natural",
+      "question": "Kedy musím byť v konaní pred správnym súdom zastúpený advokátom?",
+      "as_of": "2026-10-01",
+      "review_status": "pending_legal_review",
+      "expected_sources": [
+        {
+          "act_path": "/SK/ZZ/2015/162/",
+          "anchor": "paragraf-49",
+          "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2015/162/20260612.html#paragraf-49",
+          "reference_text": "§ 49 (1) Žalobca musí byť v konaní pred správnym súdom zastúpený advokátom; to neplatí, ak má žalobca, jeho zamestnanec alebo člen, ktorý za neho na správnom súde koná alebo ho zastupuje, vysokoškolské právnické vzdelanie druhého stupňa. Povinnosť zastúpenia sa vzťahuje aj na spísanie žaloby. Splnomocnenie udelené advokátovi nemožno obmedziť. (2) Žalobca nemusí byť zastúpený podľa odseku 1 a) v konaní podľa § 23 ods. 2 písm. e) až g) , b) v konaní podľa § 6 ods. 2 písm. b) až e) , g) , i) a j) , c) v konaní o správnej žalobe vo veciach slobodného prístupu k informáciám podľa osobitného predpisu, d) ak je žalovaným Centrum právnej pomoci. (3) Advokát je oprávnený dať sa v konaní zastupovať iným advokátom."
+        }
+      ],
+      "answer_rubric": "Uviesť pravidlo zastúpenia aj výnimky; nedeklarovať absolútnu povinnosť.",
+      "human_review": {
+        "correctness": null,
+        "completeness": null,
+        "citation_support": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LEXA-039",
+      "category": "natural",
+      "question": "Čo musí obsahovať správna žaloba?",
+      "as_of": "2026-10-01",
+      "review_status": "pending_legal_review",
+      "expected_sources": [
+        {
+          "act_path": "/SK/ZZ/2015/162/",
+          "anchor": "paragraf-182",
+          "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2015/162/20260612.html#paragraf-182",
+          "reference_text": "§ 182 (1) V správnej žalobe sa musí okrem všeobecných náležitostí podania podľa § 57 uviesť a) označenie druhu žaloby, b) označenie žalovaného, ďalších účastníkov podľa § 32 ods. 3 a osôb zúčastnených na konaní podľa § 41 ods. 1 , c) označenie napadnutého rozhodnutia alebo opatrenia a deň jeho vydania, prípadne označenie výrokov, ktoré žalobca napáda, ak sú tieto samostatné a oddeliteľné a žaloba nesmeruje voči celému rozhodnutiu alebo opatreniu, d) deň oznámenia napadnutého rozhodnutia alebo opatrenia žalobcovi podľa § 181 ods. 1 alebo deň právoplatnosti rozhodnutia o nevyhovení protestu prokurátora podľa § 181 ods. 2 alebo deň právoplatnosti napadnutého rozhodnutia alebo opatrenia podľa § 181 ods. 3 alebo uvedenie, že žalobca sa považuje za opomenutého účastníka, alebo že žalovaný doručoval napadnuté rozhodnutie alebo opatrenie verejnou vyhláškou, e) dôvody žaloby, z ktorých musí byť zrejmé, z akých konkrétnych skutkových a právnych dôvodov žalobca považuje napadnuté výroky rozhodnutia alebo opatrenia za nezákonné (ďalej len „žalobné body“), f) označenie dôkazov, ak ich žalobca navrhuje vykonať, g) vyjadrenie, či žalobca žiada nariadenie pojednávania; na neskoršiu žiadosť žalobcu o nariadenie pojednávania správny súd neprihliada, h) návrh výroku rozhodnutia (ďalej len „žalobný návrh“). (2) K správnej žalobe musí byť pripojené a) splnomocnenie udelené advokátom, ak nejde o výnimky uvedené v § 49 ods. 1 a 2 , b) potvrdenie o požadovanom vzdelaní žalobcu, jeho zamestnanca alebo člena podľa § 49 ods. 1, c) jedno vyhotovenie napadnutého rozhodnutia orgánu verejnej správy alebo opatrenia orgánu verejnej správy, ak nejde o opomenutého účastníka podľa § 179 ods. 1 , alebo jedno vyhotovenie rozhodnutia orgánu verejnej správy o nevyhovení protestu prokurátora vydané v poslednom stupni, ak ide o správnu žalobu podanú prokurátorom."
+        }
+      ],
+      "answer_rubric": "Zachytiť náležitosti a odkaz na všeobecné náležitosti podania; nepovažovať zoznam za univerzálny pre všetky žaloby.",
+      "human_review": {
+        "correctness": null,
+        "completeness": null,
+        "citation_support": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LEXA-040",
+      "category": "natural",
+      "question": "Aká je lehota na odvolanie SP?",
+      "as_of": "2026-10-01",
+      "review_status": "pending_legal_review",
+      "expected_sources": [
+        {
+          "act_path": "/SK/ZZ/1967/71/",
+          "anchor": "paragraf-54",
+          "source_url": "https://static.slov-lex.sk/static/SK/ZZ/1967/71/20180901.html#paragraf-54",
+          "reference_text": "§ 54 (1) Odvolanie sa podáva na správnom orgáne, ktorý napadnuté rozhodnutie vydal. (2) Odvolanie treba podať v lehote 15 dní odo dňa oznámenia rozhodnutia, ak inú lehotu neustanovuje osobitný zákon. (3) Pokiaľ účastník konania v dôsledku nesprávneho poučenia alebo pre to, že nebol poučený vôbec, podal opravný prostriedok po lehote, predpokladá sa, že ho podal včas, ak tak urobil najneskôr do 3 mesiacov odo dňa oznámenia rozhodnutia. (4) Účastník konania môže odvolanie vziať späť, kým sa o ňom nerozhodlo. Ak účastník konania vzal odvolanie späť, nemôže sa znova odvolať."
+        }
+      ],
+      "answer_rubric": "Uviesť pravidlo aj výnimky a potrebu okolností doručenia.",
+      "human_review": {
+        "correctness": null,
+        "completeness": null,
+        "citation_support": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LEXA-041",
+      "category": "natural",
+      "question": "Ktorý súd je miestne príslušný na konanie o dedičstve CMP?",
+      "as_of": "2026-10-01",
+      "review_status": "pending_legal_review",
+      "expected_sources": [
+        {
+          "act_path": "/SK/ZZ/2015/161/",
+          "anchor": "paragraf-158",
+          "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2015/161/20260817.html#paragraf-158",
+          "reference_text": "§ 158 Na konanie o dedičstve je miestne príslušný súd, v ktorého obvode a) mal poručiteľ v čase smrti adresu trvalého pobytu, b) sa nachádza majetok poručiteľa, ak nie je daná príslušnosť podľa písmena a), c) poručiteľ zomrel, ak nie je daná príslušnosť podľa písmena a) alebo písmena b)."
+        }
+      ],
+      "answer_rubric": "Zachovať poradie kritérií miestnej príslušnosti podľa znenia.",
+      "human_review": {
+        "correctness": null,
+        "completeness": null,
+        "citation_support": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LEXA-042",
+      "category": "natural",
+      "question": "Môže obvinený odoprieť vypovedať TP?",
+      "as_of": "2026-10-01",
+      "review_status": "pending_legal_review",
+      "expected_sources": [
+        {
+          "act_path": "/SK/ZZ/2005/301/",
+          "anchor": "paragraf-34",
+          "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2005/301/20260818.html#paragraf-34",
+          "reference_text": "§ 34 Práva a povinnosti obvineného (1) Obvinený má právo od začiatku konania proti svojej osobe vyjadriť sa ku všetkým skutočnostiam, ktoré sa mu kladú za vinu, a k dôkazom o nich, má však právo odoprieť vypovedať. Môže uvádzať okolnosti, navrhovať, predkladať a obstarávať dôkazy slúžiace na jeho obhajobu, robiť návrhy a podávať žiadosti a opravné prostriedky. Má právo zvoliť si obhajcu a s ním sa radiť aj počas úkonov vykonávaných orgánom činným v trestnom konaní alebo súdom. S obhajcom sa však v priebehu svojho výsluchu nemôže radiť o tom, ako odpovedať na položenú otázku. Môže žiadať, aby bol vypočúvaný za účasti svojho obhajcu a aby sa obhajca zúčastnil aj na iných úkonoch prípravného konania. Ak je obvinený zadržaný, vo väzbe alebo vo výkone trestu odňatia slobody, môže s obhajcom hovoriť bez prítomnosti tretej osoby; to neplatí pre telefonický rozhovor obvineného s obhajcom počas výkonu väzby, ktorého podmienky a spôsob výkonu ustanovuje osobitný predpis. Má právo v konaní pred súdom vypočúvať svedkov, ktorých sám navrhol alebo ktorých s jeho súhlasom navrhol obhajca, a klásť svedkom otázky. Obvinený môže uplatňovať svoje práva sám alebo prostredníctvom obhajcu. (2) Obvinený môže už na začiatku konania pred súdom prvého stupňa uplatniť všetky dôkazy, ktoré sú mu známe a ktoré navrhne vykonať. Ak po podaní obžaloby podá obvinený návrh na vykonanie dôkazov pred začatím konania na súde prvého stupňa, súd je povinný takýto návrh bez meškania doručiť prokurátorovi a poškodenému. (3) Obvinený, ktorý nemá dostatočné prostriedky na úhradu trov obhajoby, má nárok na bezplatnú obhajobu alebo na obhajobu za zníženú odmenu; nárok na bezplatnú obhajobu alebo obhajobu za zníženú odmenu musí obvinený preukázať najneskôr pri rozhodovaní o náhrade trov trestného konania a ak ide o ustanovenie obhajcu podľa § 40 ods. 2 , najneskôr do 30 dní po tom, čo mu bolo doručené opatrenie o ustanovení obhajcu. (4) Na žiadosť obvineného, ktorý bol zadržaný alebo zatknutý, orgán činný v trestnom konaní bezodkladne vyrozumie o tejto skutočnosti rodinného príslušníka alebo inú osobu, ktorú označí a uvedie údaje potrebné na vyrozumenie. Vyrozumenie nevykoná, ak by tým došlo k zmareniu objasnenia a vyšetrenia veci. Ak je zadržanou alebo zatknutou osobou mladistvý, vyrozumie o tejto skutočnosti bez zbytočného odkladu zákonného zástupcu mladistvého, orgán sociálnoprávnej ochrany detí a sociálnej kurately, a ak má mladistvý ustanoveného opatrovníka aj jeho; ak je vyrozumenie zákonného zástupcu mladistvého v rozpore s najlepším záujmom mladistvého, vyrozumie inú vhodnú dospelú osobu. Ak ide o cudzinca, orgán činný v trestnom konaní na žiadosť cudzinca vyrozumie o tejto skutočnosti konzulárny úrad štátu, ktorého je cudzinec občanom alebo na ktorého území má trvalý pobyt; cudzinec má právo komunikovať s týmto konzulárnym úradom. Obvinený, ktorý bol zadržaný alebo zatknutý má právo najviac dvakrát počas obmedzenia osobnej slobody na vlastné náklady komunikovať prostredníctvom telefónneho zariadenia s osobou, ktorú označí, ak tým nedôjde k ohrozeniu účelu trestného konania a je to technicky možné, a to v trvaní najviac 20 minút. Počas telefonického hovoru obvineného, ktorý bol zadržaný alebo zatknutý, je vždy prítomný policajt, ktorý je oprávnený ukončiť hovor, ak je z jeho obsahu zrejmé, že je marený účel trestného konania. (5) Orgány činné v trestnom konaní a súd sú povinné vždy obvineného o jeho právach poučiť vrátane významu priznania a poskytnúť mu plnú možnosť na ich uplatnenie. Ak je obvineným mladistvý, orgány činné v trestnom konaní sú povinné poučiť o jeho právach aj zákonného zástupcu obvineného. Poučenie sa obvinenému v prípade potreby primerane vysvetlí. Obvineného, ktorý bol zadržaný alebo zatknutý, je potrebné poučiť aj o práve na naliehavú lekársku pomoc, o práve nazerať do spisov a o maximálnej lehote, počas ktorej môže byť obmedzený na slobode, kým nebude odovzdaný súdu. (6) Orgán činný v trestnom konaní obvinenému, ktorý bol zadržaný alebo zatknutý, poskytne bez zbytočného odkladu poučenie o jeho právach v písomnej forme; táto skutočnosť sa poznamená v zápisnici. Obvinený má právo ponechať si toto poučenie u seba po celú dobu obmedzenia osobnej slobody. (7) Orgán činný v trestnom konaní obvineného poučí, že je povinný uviesť adresu, na ktorú sa mu majú písomnosti doručovať vrátane písomností určených do vlastných rúk, ako aj spôsob doručovania s tým, že ak túto adresu alebo spôsob doručovania zmení, musí takú skutočnosť bez meškania oznámiť príslušnému orgánu, a zároveň ho upozorní, že zásielky doručované na túto adresu sa budú považovať za doručené riadne a včas aj vtedy, ak ich nepreberie, vrátane predvolania na hlavné pojednávanie alebo verejné zasadnutie, ktoré sa v takom prípade môže konať aj v jeho neprítomnosti. Rovnako obvineného poučí v konaní pred súdom súd."
+        }
+      ],
+      "answer_rubric": "Uviesť právo obvineného; nezameniť ho so svedkom.",
+      "human_review": {
+        "correctness": null,
+        "completeness": null,
+        "citation_support": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LEXA-043",
+      "category": "natural",
+      "question": "Čo je priestupok ZoP?",
+      "as_of": "2026-10-01",
+      "review_status": "pending_legal_review",
+      "expected_sources": [
+        {
+          "act_path": "/SK/ZZ/1990/372/",
+          "anchor": "paragraf-2",
+          "source_url": "https://static.slov-lex.sk/static/SK/ZZ/1990/372/20260901.html#paragraf-2",
+          "reference_text": "§ 2 Pojem priestupku (1) Priestupkom je zavinené konanie, ktoré porušuje alebo ohrozuje záujem spoločnosti a je za priestupok výslovne označené v tomto alebo v inom zákone, ak nejde o iný správny delikt postihnuteľný podľa osobitných právnych predpisov, alebo o trestný čin. (2) Priestupkom nie je konanie, ktorým niekto odvracia a) primeraným spôsobom priamo hroziaci útok na záujem chránený zákonom alebo b) nebezpečenstvo priamo hroziace záujmu chránenému zákonom, ak týmto konaním nebol spôsobený zrejme rovnako závažný následok ako ten, ktorý hrozil, a toto nebezpečenstvo nebolo možné v danej situácii odstrániť inak. (3) Ak to povaha priestupku umožňuje, priestupku je možné sa dopustiť aj prostredníctvom elektronickej komunikačnej služby."
+        }
+      ],
+      "answer_rubric": "Zachovať znaky definície vrátane vylučujúcich podmienok.",
+      "human_review": {
+        "correctness": null,
+        "completeness": null,
+        "citation_support": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LEXA-044",
+      "category": "natural",
+      "question": "Kedy môže súd vydať rozsudok pre zmeškanie CSP?",
+      "as_of": "2026-10-01",
+      "review_status": "pending_legal_review",
+      "expected_sources": [
+        {
+          "act_path": "/SK/ZZ/2015/160/",
+          "anchor": "paragraf-274",
+          "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2015/160/20260715.html#paragraf-274",
+          "reference_text": "§ 274 Na pojednávaní môže súd rozhodnúť o žalobe podľa § 137 písm. a) na návrh žalobcu rozsudkom pre zmeškanie, ktorým žalobe vyhovie, ak a) sa žalovaný nedostavil na pojednávanie vo veci, hoci bol naň riadne a včas predvolaný a v predvolaní na pojednávanie bol žalovaný poučený o následku nedostavenia sa vrátane možnosti vydania rozsudku pre zmeškanie a b) žalovaný neospravedlnil svoju neprítomnosť včas a vážnymi okolnosťami."
+        }
+      ],
+      "answer_rubric": "Zachovať kumulatívne podmienky a rozsah tohto ustanovenia; neprehliadnuť iné potrebné ustanovenia.",
+      "human_review": {
+        "correctness": null,
+        "completeness": null,
+        "citation_support": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LEXA-045",
+      "category": "unavailable",
+      "question": "§ 181 SSP",
+      "as_of": "2025-01-01",
+      "review_status": "pending_legal_review",
+      "expected_sources": [],
+      "answer_rubric": "Výslovne uviesť chýbajúce znenie alebo neexistujúci odkaz. Nenahrádzať ho iným zákonom, obdobím ani nadradeným ustanovením.",
+      "human_review": {
+        "correctness": null,
+        "completeness": null,
+        "citation_support": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LEXA-046",
+      "category": "unavailable",
+      "question": "§ 1 TP",
+      "as_of": "2030-01-01",
+      "review_status": "pending_legal_review",
+      "expected_sources": [],
+      "answer_rubric": "Výslovne uviesť chýbajúce znenie alebo neexistujúci odkaz. Nenahrádzať ho iným zákonom, obdobím ani nadradeným ustanovením.",
+      "human_review": {
+        "correctness": null,
+        "completeness": null,
+        "citation_support": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LEXA-047",
+      "category": "unavailable",
+      "question": "§ 1 zákona č. 40/1964",
+      "as_of": "2026-07-30",
+      "review_status": "pending_legal_review",
+      "expected_sources": [],
+      "answer_rubric": "Výslovne uviesť chýbajúce znenie alebo neexistujúci odkaz. Nenahrádzať ho iným zákonom, obdobím ani nadradeným ustanovením.",
+      "human_review": {
+        "correctness": null,
+        "completeness": null,
+        "citation_support": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LEXA-048",
+      "category": "unavailable",
+      "question": "§ 181 ods. 999 SSP",
+      "as_of": "2026-10-01",
+      "review_status": "pending_legal_review",
+      "expected_sources": [],
+      "answer_rubric": "Výslovne uviesť chýbajúce znenie alebo neexistujúci odkaz. Nenahrádzať ho iným zákonom, obdobím ani nadradeným ustanovením.",
+      "human_review": {
+        "correctness": null,
+        "completeness": null,
+        "citation_support": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LEXA-049",
+      "category": "unavailable",
+      "question": "§ 9999 SSP",
+      "as_of": "2026-10-01",
+      "review_status": "pending_legal_review",
+      "expected_sources": [],
+      "answer_rubric": "Výslovne uviesť chýbajúce znenie alebo neexistujúci odkaz. Nenahrádzať ho iným zákonom, obdobím ani nadradeným ustanovením.",
+      "human_review": {
+        "correctness": null,
+        "completeness": null,
+        "citation_support": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LEXA-050",
+      "category": "unavailable",
+      "question": "§ 1 CMP",
+      "as_of": "2018-09-01",
+      "review_status": "pending_legal_review",
+      "expected_sources": [],
+      "answer_rubric": "Výslovne uviesť chýbajúce znenie alebo neexistujúci odkaz. Nenahrádzať ho iným zákonom, obdobím ani nadradeným ustanovením.",
+      "human_review": {
+        "correctness": null,
+        "completeness": null,
+        "citation_support": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LEXA-051",
+      "category": "exact",
+      "question": "Vysvetli § 420 ods. 1 OZ.",
+      "as_of": "2026-10-01",
+      "review_status": "pending_legal_review",
+      "expected_sources": [
+        {
+          "act_path": "/SK/ZZ/1964/40/",
+          "anchor": "paragraf-420.odsek-1",
+          "source_url": "https://static.slov-lex.sk/static/SK/ZZ/1964/40/20260731.html#paragraf-420.odsek-1",
+          "reference_text": "(1) Každý zodpovedá za škodu, ktorú spôsobil porušením právnej povinnosti."
+        }
+      ],
+      "answer_rubric": "Vysvetliť uvedené ustanovenia podľa priloženého znenia; zachovať podmienky a výnimky. Nepridávať nepodložené závery.",
+      "human_review": {
+        "correctness": null,
+        "completeness": null,
+        "citation_support": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LEXA-052",
+      "category": "exact",
+      "question": "§ 53 ods. 4 písm. a) Občianskeho zákonníka",
+      "as_of": "2026-10-01",
+      "review_status": "pending_legal_review",
+      "expected_sources": [
+        {
+          "act_path": "/SK/ZZ/1964/40/",
+          "anchor": "paragraf-53.odsek-4.pismeno-a",
+          "source_url": "https://static.slov-lex.sk/static/SK/ZZ/1964/40/20260731.html#paragraf-53.odsek-4.pismeno-a",
+          "reference_text": "a) má spotrebiteľ plniť a s ktorými sa nemal možnosť oboznámiť pred uzavretím zmluvy,"
+        }
+      ],
+      "answer_rubric": "Vysvetliť uvedené ustanovenia podľa priloženého znenia; zachovať podmienky a výnimky. Nepridávať nepodložené závery.",
+      "human_review": {
+        "correctness": null,
+        "completeness": null,
+        "citation_support": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LEXA-053",
+      "category": "exact",
+      "question": "§ 879aa zákona č. 40/1964",
+      "as_of": "2026-10-01",
+      "review_status": "pending_legal_review",
+      "expected_sources": [
+        {
+          "act_path": "/SK/ZZ/1964/40/",
+          "anchor": "paragraf-879aa",
+          "source_url": "https://static.slov-lex.sk/static/SK/ZZ/1964/40/20260731.html#paragraf-879aa",
+          "reference_text": "§ 879aa Vznik právnych vzťahov zo zmlúv uzavretých pred 31. júlom 2026 a nároky vzniknuté z týchto zmlúv sa posudzujú podľa tohto zákona v znení účinnom do 30. júla 2026."
+        }
+      ],
+      "answer_rubric": "Vysvetliť uvedené ustanovenia podľa priloženého znenia; zachovať podmienky a výnimky. Nepridávať nepodložené závery.",
+      "human_review": {
+        "correctness": null,
+        "completeness": null,
+        "citation_support": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LEXA-054",
+      "category": "multi",
+      "question": "§ 420 ods. 1 OZ a § 420 CSP",
+      "as_of": "2026-10-01",
+      "review_status": "pending_legal_review",
+      "expected_sources": [
+        {
+          "act_path": "/SK/ZZ/1964/40/",
+          "anchor": "paragraf-420.odsek-1",
+          "source_url": "https://static.slov-lex.sk/static/SK/ZZ/1964/40/20260731.html#paragraf-420.odsek-1",
+          "reference_text": "(1) Každý zodpovedá za škodu, ktorú spôsobil porušením právnej povinnosti."
+        },
+        {
+          "act_path": "/SK/ZZ/2015/160/",
+          "anchor": "paragraf-420",
+          "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2015/160/20260715.html#paragraf-420",
+          "reference_text": "§ 420 Dovolanie je prípustné proti každému rozhodnutiu odvolacieho súdu vo veci samej alebo ktorým sa konanie končí, ak a) sa rozhodlo vo veci, ktorá nepatrí do právomoci súdov, b) ten, kto v konaní vystupoval ako strana, nemal procesnú subjektivitu, c) strana nemala spôsobilosť samostatne konať pred súdom v plnom rozsahu a nekonal za ňu zákonný zástupca alebo procesný opatrovník, d) v tej istej veci sa už prv právoplatne rozhodlo alebo v tej istej veci sa už prv začalo konanie, e) rozhodoval vylúčený sudca alebo nesprávne obsadený súd, alebo f) súd nesprávnym procesným postupom znemožnil strane, aby uskutočňovala jej patriace procesné práva v takej miere, že došlo k porušeniu práva na spravodlivý proces."
+        }
+      ],
+      "answer_rubric": "Vysvetliť uvedené ustanovenia podľa priloženého znenia; zachovať podmienky a výnimky. Nepridávať nepodložené závery.",
+      "human_review": {
+        "correctness": null,
+        "completeness": null,
+        "citation_support": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LEXA-055",
+      "category": "natural",
+      "question": "ochrana osobnosti OZ",
+      "as_of": "2026-10-01",
+      "review_status": "pending_legal_review",
+      "expected_sources": [
+        {
+          "act_path": "/SK/ZZ/1964/40/",
+          "anchor": "paragraf-11",
+          "source_url": "https://static.slov-lex.sk/static/SK/ZZ/1964/40/20260731.html#paragraf-11",
+          "reference_text": "§ 11 Fyzická osoba má právo na ochranu svojej osobnosti, najmä života a zdravia, občianskej cti a ľudskej dôstojnosti, ako aj súkromia, svojho mena a prejavov osobnej povahy."
+        }
+      ],
+      "answer_rubric": "Vysvetliť uvedené ustanovenia podľa priloženého znenia; zachovať podmienky a výnimky. Nepridávať nepodložené závery.",
+      "human_review": {
+        "correctness": null,
+        "completeness": null,
+        "citation_support": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LEXA-056",
+      "category": "exact",
+      "question": "§ 20 ods. 1 písm. a) ZoS",
+      "as_of": "2026-10-01",
+      "review_status": "pending_legal_review",
+      "expected_sources": [
+        {
+          "act_path": "/SK/ZZ/2024/108/",
+          "anchor": "paragraf-20.odsek-1.pismeno-a",
+          "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2024/108/20260927.html#paragraf-20.odsek-1.pismeno-a",
+          "reference_text": "a) 14 dní odo dňa 1. prevzatia tovaru spotrebiteľom podľa odseku 4, 2. uzavretia zmluvy, ktorej predmetom je poskytnutie služby, 3. uzavretia zmluvy o dodávaní vody, ktorá nie je na predaj v obmedzenom objeme alebo v určenom množstve, a zmluvy o dodávke a odbere tepla, 4. uzavretia zmluvy o dodaní digitálneho obsahu, ktorý obchodník dodáva inak ako na hmotnom nosiči,"
+        }
+      ],
+      "answer_rubric": "Vysvetliť uvedené ustanovenia podľa priloženého znenia; zachovať podmienky a výnimky. Nepridávať nepodložené závery.",
+      "human_review": {
+        "correctness": null,
+        "completeness": null,
+        "citation_support": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LEXA-057",
+      "category": "exact",
+      "question": "§ 7 ods. 1 zákona o ochrane spotrebiteľa",
+      "as_of": "2026-10-01",
+      "review_status": "pending_legal_review",
+      "expected_sources": [
+        {
+          "act_path": "/SK/ZZ/2024/108/",
+          "anchor": "paragraf-7.odsek-1",
+          "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2024/108/20260927.html#paragraf-7.odsek-1",
+          "reference_text": "(1) Obchodník je povinný v každom oznámení o znížení ceny tovaru uviesť predchádzajúcu cenu tovaru. Obchodník je povinný určiť zníženie ceny tovaru na základe predchádzajúcej ceny tovaru."
+        }
+      ],
+      "answer_rubric": "Vysvetliť uvedené ustanovenia podľa priloženého znenia; zachovať podmienky a výnimky. Nepridávať nepodložené závery.",
+      "human_review": {
+        "correctness": null,
+        "completeness": null,
+        "citation_support": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LEXA-058",
+      "category": "exact",
+      "question": "§ 20a zákona č. 108/2024",
+      "as_of": "2026-10-01",
+      "review_status": "pending_legal_review",
+      "expected_sources": [
+        {
+          "act_path": "/SK/ZZ/2024/108/",
+          "anchor": "paragraf-20a",
+          "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2024/108/20260927.html#paragraf-20a",
+          "reference_text": "§ 20a Uplatnenie práva na odstúpenie od zmluvy uzavretej na diaľku prostredníctvom online rozhrania (1) Obchodník je povinný zabezpečiť, aby spotrebiteľ mohol odstúpiť od zmluvy uzavretej na diaľku prostredníctvom online rozhrania, aj použitím funkcie na odstúpenie od zmluvy; ustanovenie § 20 ods. 6 tým nie je dotknuté. (2) Funkcia na odstúpenie od zmluvy musí byť označená ľahko čitateľným spôsobom slovným spojením „odstúpiť od zmluvy tu“ alebo obdobnou formuláciou, ktorá jednoznačne vyjadruje, že jej použitím môže spotrebiteľ odstúpiť od zmluvy. Funkcia na odstúpenie od zmluvy musí byť v online rozhraní zreteľne zobrazená a musí byť pre spotrebiteľa ľahko a nepretržite dostupná počas plynutia lehoty na odstúpenie od zmluvy podľa § 20 ods. 1 až 3 alebo podľa osobitných predpisov.69a) (3) Funkcia na odstúpenie od zmluvy musí umožniť spotrebiteľovi zaslať obchodníkovi oznámenie o odstúpení od zmluvy využitím online rozhrania, ktorým spotrebiteľ poskytne alebo potvrdí a) meno a priezvisko spotrebiteľa, ktorý uplatňuje právo na odstúpenie od zmluvy, b) identifikačné údaje zmluvy, ktorej sa odstúpenie od zmluvy týka, c) adresu elektronickej pošty spotrebiteľa alebo údaje iného prostriedku online komunikácie, ktorým obchodník poskytne spotrebiteľovi potvrdenie o doručení oznámenia o odstúpení od zmluvy. (4) Ak spotrebiteľ vyplní oznámenie o odstúpení od zmluvy podľa odseku 3, obchodník zabezpečí, aby spotrebiteľ mohol obchodníkovi odoslať oznámenie o odstúpení od zmluvy aktivovaním osobitnej funkcie v online rozhraní, ktorá musí byť označená ľahko čitateľným spôsobom slovným spojením „potvrdiť odstúpenie od zmluvy“ alebo obdobnou formuláciou, ktorá jednoznačne vyjadruje, že jej aktivovaním spotrebiteľ potvrdí odstúpenie od zmluvy. (5) Ak spotrebiteľ potvrdí odstúpenie od zmluvy podľa odseku 4, obchodník je povinný bezodkladne poskytnúť spotrebiteľovi potvrdenie o doručení oznámenia o odstúpení od zmluvy na trvanlivom médiu, ktoré obsahuje oznámenie o odstúpení od zmluvy a dátum a čas odoslania oznámenia o odstúpení od zmluvy. (6) Lehota na odstúpenie od zmluvy podľa § 20 ods. 1 až 3 alebo podľa osobitných predpisov69a) sa považuje za zachovanú, ak spotrebiteľ najneskôr posledný deň lehoty odošle oznámenie o odstúpení od zmluvy obchodníkovi podľa odseku 4."
+        }
+      ],
+      "answer_rubric": "Vysvetliť uvedené ustanovenia podľa priloženého znenia; zachovať podmienky a výnimky. Nepridávať nepodložené závery.",
+      "human_review": {
+        "correctness": null,
+        "completeness": null,
+        "citation_support": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LEXA-059",
+      "category": "multi",
+      "question": "§ 20 ods. 1 ZoS a § 619 OZ",
+      "as_of": "2026-10-01",
+      "review_status": "pending_legal_review",
+      "expected_sources": [
+        {
+          "act_path": "/SK/ZZ/2024/108/",
+          "anchor": "paragraf-20.odsek-1",
+          "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2024/108/20260927.html#paragraf-20.odsek-1",
+          "reference_text": "(1) Spotrebiteľ môže odstúpiť od zmluvy uzavretej na diaľku alebo od zmluvy uzavretej mimo prevádzkových priestorov obchodníka do a) 14 dní odo dňa 1. prevzatia tovaru spotrebiteľom podľa odseku 4, 2. uzavretia zmluvy, ktorej predmetom je poskytnutie služby, 3. uzavretia zmluvy o dodávaní vody, ktorá nie je na predaj v obmedzenom objeme alebo v určenom množstve, a zmluvy o dodávke a odbere tepla, 4. uzavretia zmluvy o dodaní digitálneho obsahu, ktorý obchodník dodáva inak ako na hmotnom nosiči, b) 30 dní odo dňa, kedy nastala skutočnosť podľa písmena a) prvého bodu až štvrtého bodu, ak bola zmluva uzavretá pri nevyžiadanej návšteve alebo v súvislosti s ňou alebo na predajnej akcii alebo v súvislosti s ňou."
+        },
+        {
+          "act_path": "/SK/ZZ/1964/40/",
+          "anchor": "paragraf-619",
+          "source_url": "https://static.slov-lex.sk/static/SK/ZZ/1964/40/20260731.html#paragraf-619",
+          "reference_text": "§ 619 Zodpovednosť za vady (1) Predávajúci zodpovedá za akúkoľvek vadu, ktorú má predaná vec v čase jej dodania a ktorá sa prejaví do dvoch rokov od dodania veci. (2) Ak je predmetom kúpy vec s digitálnymi prvkami, pri ktorej sa má digitálny obsah dodávať alebo digitálna služba poskytovať nepretržite počas dohodnutej doby, predávajúci zodpovedá za každú vadu digitálneho obsahu alebo digitálnej služby, ktorá sa vyskytne alebo prejaví počas celej dohodnutej doby, najmenej však počas dvoch rokov od dodania veci s digitálnymi prvkami. (3) Pri použitej veci sa strany môžu dohodnúť na kratšej dobe zodpovednosti predávajúceho za vady ako v odsekoch 1 a 2, nie však kratšej ako jeden rok od dodania veci. (4) Po prvom odstránení vady opravou veci sa doba zodpovednosti za vady veci podľa odsekov 1 až 3 predlžuje o 12 mesiacov. Doba zodpovednosti za vady veci sa predĺži len raz bez ohľadu na počet opráv veci. (5) Predávajúci zodpovedá za vadu, ktorá bola spôsobená nesprávnou montážou alebo inštaláciou veci, digitálneho obsahu alebo digitálnej služby, ak a) montáž alebo inštalácia bola súčasťou kúpnej zmluvy a bola vykonaná predávajúcim alebo na jeho zodpovednosť, alebo b) montáž alebo inštaláciu, ktorú mal vykonať kupujúci, vykonal kupujúci nesprávne v dôsledku nedostatkov návodu na montáž alebo inštaláciu, ktorý mu poskytol predávajúci alebo dodávateľ digitálneho obsahu alebo digitálnej služby. (6) Predávajúci nezodpovedá za vadu veci s digitálnymi prvkami, ktorá bola spôsobená výlučne nenainštalovaním aktualizácie podľa § 617 ods. 3, ak si kupujúci aktualizáciu nenainštaloval v primeranej lehote po jej dodaní a a) predávajúci oboznámil kupujúceho o dostupnosti aktualizácie a následkoch jej nenainštalovania, a b) nenainštalovanie alebo nesprávna inštalácia aktualizácie kupujúcim neboli spôsobené nedostatkami v poskytnutom návode na inštaláciu."
+        }
+      ],
+      "answer_rubric": "Vysvetliť uvedené ustanovenia podľa priloženého znenia; zachovať podmienky a výnimky. Nepridávať nepodložené závery.",
+      "human_review": {
+        "correctness": null,
+        "completeness": null,
+        "citation_support": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LEXA-060",
+      "category": "natural",
+      "question": "zníženie ceny tovaru ZoS",
+      "as_of": "2026-10-01",
+      "review_status": "pending_legal_review",
+      "expected_sources": [
+        {
+          "act_path": "/SK/ZZ/2024/108/",
+          "anchor": "paragraf-7",
+          "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2024/108/20260927.html#paragraf-7",
+          "reference_text": "§ 7 Zníženie ceny tovaru (1) Obchodník je povinný v každom oznámení o znížení ceny tovaru uviesť predchádzajúcu cenu tovaru. Obchodník je povinný určiť zníženie ceny tovaru na základe predchádzajúcej ceny tovaru. (2) Predchádzajúca cena tovaru je najnižšia cena, za ktorú obchodník predával alebo poskytoval tovar a) v období 30 dní pred znížením ceny tovaru, alebo b) od začiatku predaja alebo poskytovania tovaru, ak obchodník predával alebo poskytoval tovar v období kratšom ako 30 dní pred znížením ceny. (3) Obchodník môže pri postupnom znižovaní ceny tovaru ako predchádzajúcu cenu tovaru uviesť cenu, ktorá bola predchádzajúcou cenou tovaru pred prvým znížením ceny tovaru, bez ohľadu na čas predaja alebo poskytovania tovaru. (4) Odseky 1 a 2 sa nevzťahujú na tovar, ktorý podlieha rýchlemu zníženiu kvality alebo skaze.43)"
+        }
+      ],
+      "answer_rubric": "Vysvetliť uvedené ustanovenia podľa priloženého znenia; zachovať podmienky a výnimky. Nepridávať nepodložené závery.",
+      "human_review": {
+        "correctness": null,
+        "completeness": null,
+        "citation_support": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LEXA-061",
+      "category": "unavailable",
+      "question": "§ 1 ZoS",
+      "as_of": "2026-09-26",
+      "review_status": "pending_legal_review",
+      "expected_sources": [],
+      "answer_rubric": "Výslovne uviesť chýbajúce znenie alebo neexistujúci odkaz. Nenahrádzať ho iným zákonom, obdobím ani citovaným novelizačným znením.",
+      "human_review": {
+        "correctness": null,
+        "completeness": null,
+        "citation_support": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LEXA-062",
+      "category": "unavailable",
+      "question": "§ 619 ods. 1 ZoS",
+      "as_of": "2026-10-01",
+      "review_status": "pending_legal_review",
+      "expected_sources": [],
+      "answer_rubric": "Výslovne uviesť chýbajúce znenie alebo neexistujúci odkaz. Nenahrádzať ho iným zákonom, obdobím ani citovaným novelizačným znením.",
+      "human_review": {
+        "correctness": null,
+        "completeness": null,
+        "citation_support": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LEXA-063",
+      "category": "unavailable",
+      "question": "§ 3 zákona o ochrane spotrebiteľa č. 250/2007",
+      "as_of": "2026-10-01",
+      "review_status": "pending_legal_review",
+      "expected_sources": [],
+      "answer_rubric": "Výslovne uviesť chýbajúce znenie alebo neexistujúci odkaz. Nenahrádzať ho iným zákonom, obdobím ani citovaným novelizačným znením.",
+      "human_review": {
+        "correctness": null,
+        "completeness": null,
+        "citation_support": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LEXA-064",
+      "category": "exact",
+      "question": "Vysvetli čl. 13 Bruselského dohovoru.",
+      "as_of": "2026-10-01",
+      "review_status": "pending_legal_review",
+      "expected_sources": [
+        {
+          "act_path": "CELEX:41998A0126",
+          "anchor": "predpis.text2.clanok-13",
+          "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:41998A0126",
+          "reference_text": "Article 13\nIn proceedings concerning a contract concluded by a person for a purpose which can be regarded as being outside his trade or profession, hereinafter called 'the consumer`, jurisdiction shall be determined by this Section, without prejudice to the provisions of point 5 of Articles 4 and 5, if it is:\n1. a contract for the sale of goods on instalment credit terms; or\n2. a contract for a loan repayable by instalments, or for any other form of credit, made to finance the sale of goods; or\n3. any other contract for the supply of goods or a contract for the supply of services, and\n(a) in the State of the consumer's domicile the conclusion of the contract was preceded by a specific invitation addressed to him or by advertising; and\n(b) the consumer took in that State the steps necessary for the conclusion of the contract.\nWhere a consumer enters into a contract with a party who is not domiciled in a Contracting State but has a branch, agency or other establishment in one of the Contracting States, that party shall, in disputes arising out of the operations of the branch, agency or establishment, be deemed to be domiciled in that State.\nThis Section shall not apply to contracts of transport."
+        }
+      ],
+      "answer_rubric": "Vysvetliť článok podľa anglického znenia; rozlíšiť dohovor a protokoly. Uviesť historickú konsolidáciu z roku 1998 a nepredpokladať dnešnú použiteľnosť. Nezamieňať s nariadeniami Brusel I/Ia.",
+      "human_review": {
+        "correctness": null,
+        "completeness": null,
+        "citation_support": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LEXA-065",
+      "category": "exact",
+      "question": "Vysvetli čl. 14 BD.",
+      "as_of": "2026-10-01",
+      "review_status": "pending_legal_review",
+      "expected_sources": [
+        {
+          "act_path": "CELEX:41998A0126",
+          "anchor": "predpis.text2.clanok-14",
+          "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:41998A0126",
+          "reference_text": "Article 14\nA consumer may bring proceedings against the other party to a contract either in the courts of the Contracting State in which that party is domiciled or in the courts of the Contracting State in which he is himself domiciled.\nProceedings may be brought against a consumer by the other party to the contract only in the courts of the Contracting State in which the consumer is domiciled.\nThese provisions shall not affect the right to bring a counter-claim in the court in which, in accordance with this Section, the original claim is pending."
+        }
+      ],
+      "answer_rubric": "Vysvetliť článok podľa anglického znenia; rozlíšiť dohovor a protokoly. Uviesť historickú konsolidáciu z roku 1998 a nepredpokladať dnešnú použiteľnosť. Nezamieňať s nariadeniami Brusel I/Ia.",
+      "human_review": {
+        "correctness": null,
+        "completeness": null,
+        "citation_support": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LEXA-066",
+      "category": "exact",
+      "question": "Vysvetli čl. 15 BD.",
+      "as_of": "2026-10-01",
+      "review_status": "pending_legal_review",
+      "expected_sources": [
+        {
+          "act_path": "CELEX:41998A0126",
+          "anchor": "predpis.text2.clanok-15",
+          "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:41998A0126",
+          "reference_text": "Article 15\nThe provisions of this Section may be departed from only by an agreement:\n1. which is entered into after the dispute has arisen; or\n2. which allows the consumer to bring proceedings in courts other than those indicated in this Section; or\n3. which is entered into by the consumer and the other party to the contract, both of whom are at the time of conclusion of the contract domiciled or habitually resident in the same Contracting State, and which confers jurisdiction on the courts of that State, provided that such an agreement is not contrary to the law of that State."
+        }
+      ],
+      "answer_rubric": "Vysvetliť článok podľa anglického znenia; rozlíšiť dohovor a protokoly. Uviesť historickú konsolidáciu z roku 1998 a nepredpokladať dnešnú použiteľnosť. Nezamieňať s nariadeniami Brusel I/Ia.",
+      "human_review": {
+        "correctness": null,
+        "completeness": null,
+        "citation_support": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LEXA-067",
+      "category": "exact",
+      "question": "Article 6a Brussels Convention",
+      "as_of": "2026-10-01",
+      "review_status": "pending_legal_review",
+      "expected_sources": [
+        {
+          "act_path": "CELEX:41998A0126",
+          "anchor": "predpis.text2.clanok-6a",
+          "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:41998A0126",
+          "reference_text": "Article 6a (11)\nWhere by virtue of this Convention a court of a Contracting State has jurisdiction in actions relating to liability from the use or operation of a ship, that court, or any other court substituted for this purpose by the internal law of that State, shall also have jurisdiction over claims for limitation of such liability."
+        }
+      ],
+      "answer_rubric": "Vysvetliť článok podľa anglického znenia; rozlíšiť dohovor a protokoly. Uviesť historickú konsolidáciu z roku 1998 a nepredpokladať dnešnú použiteľnosť. Nezamieňať s nariadeniami Brusel I/Ia.",
+      "human_review": {
+        "correctness": null,
+        "completeness": null,
+        "citation_support": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LEXA-068",
+      "category": "exact",
+      "question": "čl. Vd pripojeného protokolu BD",
+      "as_of": "2026-10-01",
+      "review_status": "pending_legal_review",
+      "expected_sources": [
+        {
+          "act_path": "CELEX:41998A0126",
+          "anchor": "treaty-protocol.clanok-vd",
+          "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:41998A0126",
+          "reference_text": "Article Vd (73)\nWithout prejudice to the jurisdiction of the European Patent Office under the Convention on the grant of European patents, signed at Munich on 5 October 1973, the courts of each Contracting State shall have exclusive jurisdiction, regardless of domicile, in proceedings concerned with the registration or validity of any European patent granted for that State which is not a Community patent by virtue of the provisions of Article 86 of the Convention for the European patent for the common market, signed at Luxembourg on 15 December 1975."
+        }
+      ],
+      "answer_rubric": "Vysvetliť článok podľa anglického znenia; rozlíšiť dohovor a protokoly. Uviesť historickú konsolidáciu z roku 1998 a nepredpokladať dnešnú použiteľnosť. Nezamieňať s nariadeniami Brusel I/Ia.",
+      "human_review": {
+        "correctness": null,
+        "completeness": null,
+        "citation_support": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LEXA-069",
+      "category": "exact",
+      "question": "čl. 13 protokolu o výklade BD",
+      "as_of": "2026-10-01",
+      "review_status": "pending_legal_review",
+      "expected_sources": [
+        {
+          "act_path": "CELEX:41998A0126",
+          "anchor": "treaty-interpretation.clanok-13",
+          "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:41998A0126",
+          "reference_text": "Article 13\nAny Contracting State may request the revision of this Protocol. In this event, a revision conference shall be convened by the President of the Council of the European Communities."
+        }
+      ],
+      "answer_rubric": "Vysvetliť článok podľa anglického znenia; rozlíšiť dohovor a protokoly. Uviesť historickú konsolidáciu z roku 1998 a nepredpokladať dnešnú použiteľnosť. Nezamieňať s nariadeniami Brusel I/Ia.",
+      "human_review": {
+        "correctness": null,
+        "completeness": null,
+        "citation_support": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LEXA-070",
+      "category": "unsupported",
+      "question": "čl. 13 BD",
+      "as_of": "1998-01-25",
+      "review_status": "pending_legal_review",
+      "expected_sources": [],
+      "answer_rubric": "Nezameniť neimportované znenie za konsolidáciu Bruselského dohovoru z roku 1998.",
+      "human_review": {
+        "correctness": null,
+        "completeness": null,
+        "citation_support": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "LEXA-071",
+      "category": "unsupported",
+      "question": "čl. 13 nariadenia 1215/2012",
+      "as_of": "2026-10-01",
+      "review_status": "pending_legal_review",
+      "expected_sources": [],
+      "answer_rubric": "Nezameniť neimportované znenie za konsolidáciu Bruselského dohovoru z roku 1998.",
+      "human_review": {
+        "correctness": null,
+        "completeness": null,
+        "citation_support": null,
+        "notes": ""
+      }
+    }
+  ]
+}

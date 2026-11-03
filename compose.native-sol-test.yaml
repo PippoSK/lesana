@@ -1,0 +1,12 @@
+# Layer over compose.test.yaml; native OpenAI protocol with local dummy credentials.
+services:
+  mock-model:
+    command: [python, /tests/mock_native_openai.py]
+  agent-test:
+    image: lexa-app:latest
+    environment:
+      LLM_PROVIDER: openai
+      LLM_BASE_URL: http://mock-model:9000/v1
+      LLM_MODEL: gpt-6.1-sol
+      LLM_API_KEY: native-fixture-key
+      OPENROUTER_API_KEY: must-not-be-forwarded

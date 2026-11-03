@@ -1,0 +1,16 @@
+{
+  "act_id": "SK/ZZ/2015/160",
+  "title": "Civilný sporový poriadok",
+  "number": "160/2015 Z. z.",
+  "valid_from": "2026-07-15",
+  "valid_to": null,
+  "verified_on": "2026-10-01",
+  "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2015/160/20260715.html",
+  "pdf_url": "https://static.slov-lex.sk/pdf/SK/ZZ/2015/160/ZZ_2015_160_20260715.pdf",
+  "sha256": "c99b8ae03487f267a6d9c6aa1f32d0c66a7b9ec9ddc05bab6723d1cc5dcc14db",
+  "expected_sections": 483,
+  "expected_letters": 233,
+  "expected_articles": 18,
+  "expected_paragraphs": 919,
+  "expected_nodes": 1793
+}

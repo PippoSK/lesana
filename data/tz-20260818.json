@@ -1,0 +1,16 @@
+{
+  "act_id": "SK/ZZ/2005/300",
+  "title": "Trestný zákon",
+  "number": "300/2005 Z. z.",
+  "valid_from": "2026-08-18",
+  "valid_to": null,
+  "verified_on": "2026-10-01",
+  "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2005/300/20260818.html",
+  "pdf_url": "https://static.slov-lex.sk/pdf/SK/ZZ/2005/300/ZZ_2005_300_20260818.pdf",
+  "sha256": "2c7fb39deb99449f704724037c8d6d4c988e29ffc51f51b38967feab5240c3d5",
+  "expected_sections": 528,
+  "expected_letters": 1793,
+  "expected_articles": 0,
+  "expected_paragraphs": 1565,
+  "expected_nodes": 4072
+}

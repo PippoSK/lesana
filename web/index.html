@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#234e42">
+  <title>Lesana — právny priestor</title>
+  <link rel="stylesheet" href="/style.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <aside class="sidebar" id="sidebar">
+    <button id="close-sidebar" class="icon-button mobile-only" aria-label="Zavrieť navigáciu">×</button>
+    <a class="brand" href="/" aria-label="Lesana, úvod"><span class="brand-mark">l.</span><span>lesana<span class="brand-dot">.</span></span></a>
+    <div class="workspace-label">VÁŠ PRÁVNY PRIESTOR</div>
+    <button class="new-chat" id="new-chat"><span>＋</span> Nový rozhovor <kbd>⌘ K</kbd></button>
+    <button class="nav-item" id="open-search"><span aria-hidden="true">⌕</span> Vyhľadať v zdrojoch</button>
+    <div class="history-label">ROZHOVORY <span id="history-count">0</span></div>
+    <nav id="history" aria-label="História rozhovorov"><p class="muted small">Tu nájdete svoje rozhovory.</p></nav>
+    <div class="sidebar-bottom">
+      <button id="open-corpus" class="corpus-link"><span class="book-icon" aria-hidden="true">§</span><span>Predpisy a judikatúra<small id="library-count">Načítavam knižnicu…</small></span><span>↗</span></button>
+      <div class="profile"><span class="avatar">V</span><span>Váš pracovný priestor<small>Súkromná relácia prehliadača</small></span><span class="version">v0.1</span></div>
+    </div>
+  </aside>
+  <main class="main">
+    <header class="topbar">
+      <button id="menu" class="icon-button mobile-only" aria-label="Zobraziť navigáciu">☰</button>
+      <div class="breadcrumb">Právny asistent <span>/</span> <strong id="chat-title">Nový rozhovor</strong></div>
+      <div class="topbar-right"><span class="status-dot"></span><span id="mode-label">Pripájam…</span><button id="source-toggle" class="icon-button" aria-label="Zobraziť zdroje">§</button></div>
+    </header>
+    <div class="workspace">
+      <section class="chat-area" aria-label="Rozhovor s právnym asistentom">
+        <div class="scroll-area" id="scroll-area">
+          <div class="welcome" id="welcome">
+            <div class="eyebrow"><span class="tiny-mark">✳</span> PRÁVO, KTORÉMU ROZUMIETE</div>
+            <h1>Začnime vašou<br><em>právnou otázkou.</em></h1>
+            <p class="intro">Opíšte svoju situáciu. Lesana vyhľadá súvisiace ustanovenia<br class="desktop-break"> a pomôže vám zorientovať sa v ich súvislostiach.</p>
+            <div class="scope-note"><span>§</span><div><strong>Civilné, správne a trestné právo</strong><span>OZ · ZoS · BD · CSP · CMP · SSP · SP · ZoP · TZ · TP</span></div><span class="scope-tag">SK · EÚ</span></div>
+            <div class="suggestion-label">MÔŽETE ZAČAŤ NAPRÍKLAD</div>
+            <div class="suggestions">
+              <button data-question="Aká je lehota na podanie správnej žaloby proti rozhodnutiu orgánu verejnej správy?"><span class="suggestion-icon">◷</span><strong>Lehota na podanie žaloby</strong><span>Dokedy sa môžem obrátiť na správny súd?</span><b>↗</b></button>
+              <button data-question="Kedy musím byť v konaní pred správnym súdom zastúpený advokátom a aké sú výnimky?"><span class="suggestion-icon">♧</span><strong>Zastúpenie advokátom</strong><span>Kedy ho potrebujem a aké sú výnimky?</span><b>↗</b></button>
+              <button data-question="Čo musí obsahovať správna žaloba podľa § 182 Správneho súdneho poriadku?"><span class="suggestion-icon">≡</span><strong>Náležitosti správnej žaloby</strong><span>Čo nesmie chýbať v mojom podaní?</span><b>↗</b></button>
+            </div>
+          </div>
+          <div id="messages" class="messages" aria-live="polite"></div>
+        </div>
+        <div class="composer-wrap">
+          <div id="progress" class="progress hidden" role="status"><span class="spinner"></span><span id="progress-text"></span></div>
+          <div id="error" class="error hidden" role="alert"></div>
+          <form id="chat-form" class="composer">
+            <section id="attachments-panel" class="attachments-panel hidden" aria-labelledby="attachments-title">
+              <div class="attachments-heading"><strong id="attachments-title">Súbory v rozhovore</strong><span id="attachment-count"></span></div>
+              <ul id="attachments" class="attachments"></ul>
+              <p class="attachment-context">Lesana použije ich text aj pri ďalších otázkach v tomto rozhovore.</p>
+            </section>
+            <label for="question" class="sr-only">Vaša právna otázka</label>
+            <textarea id="question" placeholder="Opíšte svoju situáciu alebo sa opýtajte na ustanovenie…" rows="2" maxlength="6000" required></textarea>
+            <input id="file-input" type="file" accept=".pdf,.txt,.md,.docx" multiple hidden>
+            <div class="composer-bottom"><button id="attach-files" class="attach-files" type="button" aria-describedby="attachment-help"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 12 6.5-6.5a3 3 0 0 1 4.2 4.2L10 18.4a5 5 0 0 1-7.1-7.1l9.2-9.2M6.6 13.4l7.8-7.8"/></svg>Priložiť súbory</button><div class="send-wrap"><span class="send-hint">Enter odoslať</span><button id="send" class="send" type="submit" aria-label="Odoslať otázku">↑</button></div></div>
+            <p id="attachment-help" class="attachment-help">PDF s textom, DOCX, TXT alebo MD · najviac 5 súborov po 10 MB. Môžete ich sem aj pretiahnuť.</p>
+            <p id="attachment-status" class="attachment-status hidden" role="status" aria-live="polite"></p>
+          </form>
+          <p class="fine-print">Lesana môže robiť chyby. Overte citované ustanovenia a rozhodujúce okolnosti prípadu.</p>
+        </div>
+      </section>
+      <aside class="sources-panel" id="sources-panel" aria-label="Právne zdroje">
+        <div class="panel-heading"><span>Podklady k odpovedi</span><span class="count-badge" id="source-count">0</span></div>
+        <div id="sources" class="sources">
+          <div class="sources-empty"><div class="source-illustration">§</div><h2>Každý záver má svoj zdroj.</h2><p>Tu sa zobrazia ustanovenia a súdne rozhodnutia s presným znením, kontextom a odkazom na oficiálny zdroj.</p><div class="source-steps"><span>01 <b>Vyhľadanie ustanovení</b></span><span>02 <b>Preverenie súvislostí</b></span><span>03 <b>Odpoveď s citáciami</b></span></div></div>
+        </div>
+        <div class="source-footer"><span class="status-dot"></span><span>Zdroje: Slov-Lex, EUR-Lex, NS SR a NS ČR<small id="verified-date">Overujem časovú verziu…</small></span></div>
+      </aside>
+    </div>
+  </main>
+  <dialog id="login-dialog"><form id="login-form"><div class="dialog-top"><h2>Vitajte v Lesane</h2></div><p>Zadajte heslo tohto pracovného priestoru.</p><label for="password">Prístupové heslo</label><input id="password" type="password" autocomplete="current-password" required><p id="login-error" class="error"></p><button class="primary" type="submit">Pokračovať →</button></form></dialog>
+  <dialog id="search-dialog"><div class="dialog-top"><h2>Vyhľadať v zdrojoch</h2><button class="icon-button" data-close="search-dialog" aria-label="Zavrieť">×</button></div><form id="search-form" class="search-form"><input id="search-query" type="search" placeholder="Právny pojem, § 362 CSP alebo C-464/01 bod 39" aria-label="Vyhľadávaný pojem" maxlength="500" required><button class="primary">Vyhľadať</button></form><p class="muted small">Vyhľadávanie používa dátum zvolený v rozhovore.</p><div id="search-results"></div></dialog>
+  <dialog id="corpus-dialog" aria-labelledby="corpus-title">
+    <div class="dialog-top"><h2 id="corpus-title">Predpisy a judikatúra</h2><button class="icon-button" data-close="corpus-dialog" aria-label="Zavrieť">×</button></div>
+    <section class="source-request-section" aria-labelledby="source-request-title">
+      <h3 id="source-request-title">Pridať zdroj do knižnice</h3>
+      <p>Chýba vám predpis alebo súdne rozhodnutie? Lesana ho pridá do databázy na pozadí. Počas spracovania môžete pokračovať v rozhovore.</p>
+      <form id="source-request-form">
+        <label for="source-request-kind">Typ zdroja</label>
+        <select id="source-request-kind"><option value="legislation">Slovenský právny predpis</option><option value="judgment">Rozsudok súdov EÚ</option><option value="supreme_court_judgment">Rozhodnutie Najvyššieho súdu Slovenskej republiky</option><option value="czech_supreme_court_judgment">Rozhodnutie Najvyššieho súdu ČR · podporná argumentácia</option><option value="supreme_court_collection">Celá čiastka Zbierky stanovísk a rozhodnutí NS SR</option><option value="eu_regulation">Nariadenie EÚ</option></select>
+        <label for="source-request-reference" id="source-request-label">Číslo predpisu alebo odkaz na Slov-Lex</label>
+        <input id="source-request-reference" type="text" maxlength="1000" required autocomplete="off" spellcheck="false" aria-describedby="source-request-help" placeholder="311/2001 alebo https://static.slov-lex.sk/…">
+        <p id="source-request-help" class="small">Zadajte číslo/rok pre aktuálne znenie (napr. 311/2001) alebo HTML odkaz na konkrétne časové znenie zo static.slov-lex.sk. Importuje sa len vybraná verzia.</p>
+        <button id="source-request-submit" class="primary" type="submit">Pridať na pozadí</button>
+      </form>
+      <p id="source-request-feedback" class="source-request-feedback hidden" role="status"></p>
+      <div class="request-list-heading"><h4>Vaše žiadosti</h4><button id="refresh-source-requests" class="request-refresh" type="button">Obnoviť</button></div>
+      <div id="source-requests" aria-live="polite" aria-relevant="additions text"><p class="small muted">Zatiaľ nemáte žiadne žiadosti.</p></div>
+    </section>
+    <h3 class="corpus-list-title">Dostupné zdroje</h3>
+    <div id="corpus-details"></div>
+  </dialog>
+</body>
+</html>

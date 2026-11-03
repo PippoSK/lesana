@@ -1,0 +1,5 @@
+# Layer over compose.test.yaml and compose.openrouter-test.yaml.
+services:
+  agent-test:
+    environment:
+      LLM_MODEL: qwen/qwen3.8-27b

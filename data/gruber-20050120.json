@@ -1,0 +1,30 @@
+{
+  "act_id": "EU/CJ/62001CJ0464",
+  "title": "Johann Gruber proti Bay Wa AG",
+  "number": "C-464/01",
+  "valid_from": "2005-01-20",
+  "valid_to": null,
+  "verified_on": "2026-10-02",
+  "source_url": "https://eur-lex.europa.eu/legal-content/SK/TXT/HTML/?uri=CELEX:62001CJ0464",
+  "pdf_url": "https://eur-lex.europa.eu/legal-content/SK/TXT/PDF/?uri=CELEX:62001CJ0464",
+  "sha256": "f22e173c855ece624f2883700b6346a9f3abc36f3dcf229a0ad3bf25b15622af",
+  "expected_sections": 0,
+  "expected_letters": 0,
+  "expected_articles": 0,
+  "expected_paragraphs": 0,
+  "expected_nodes": 58,
+  "judgment": {
+    "court": "Súdny dvor (druhá komora)",
+    "ecli": "ECLI:EU:C:2005:32",
+    "celex": "62001CJ0464",
+    "language": "sk",
+    "decided_on": "2005-01-20",
+    "legal_context": "Výklad článkov 13 až 15 Bruselského dohovoru z 27. septembra 1968: súdna právomoc vo veciach spotrebiteľských zmlúv s dvojakým účelom.",
+    "aliases": [
+      "Gruber",
+      "Bay Wa AG",
+      "BayWa"
+    ],
+    "expected_points": 56
+  }
+}

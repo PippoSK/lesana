@@ -1,0 +1,12 @@
+# Layer over compose.test.yaml; uses only local fixtures and dummy credentials.
+services:
+  mock-model:
+    command: [python, /tests/mock_openrouter.py]
+  agent-test:
+    image: lexa-app:latest
+    environment:
+      LLM_PROVIDER: openrouter
+      LLM_BASE_URL: http://mock-model:9000/api/v1
+      LLM_MODEL: openai/gpt-6.1-sol
+      OPENROUTER_API_KEY: fixture-key
+      LLM_API_KEY: must-not-be-forwarded

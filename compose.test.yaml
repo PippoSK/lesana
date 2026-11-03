@@ -1,0 +1,61 @@
+# Optional integration fixtures; never enable these services in production.
+services:
+  test-db:
+    image: pgvector/pgvector:0.8.6-pg17-bookworm
+    profiles: [test]
+    environment:
+      POSTGRES_DB: lexa_test
+      POSTGRES_USER: lexa
+      POSTGRES_PASSWORD: test-only-password
+    tmpfs:
+      - /var/lib/postgresql/data
+    healthcheck:
+      test: [CMD-SHELL, "pg_isready -U lexa -d lexa_test"]
+      interval: 2s
+      timeout: 3s
+      retries: 30
+  mock-model:
+    image: python:3.13-slim-bookworm
+    profiles: [test]
+    command: [python, /tests/mock_model.py]
+    volumes:
+      - ./tests:/tests:ro
+  agent-test:
+    image: lesana-test
+    build: .
+    profiles: [test]
+    ports: ["127.0.0.1:8089:8080"]
+    environment:
+      PGHOST: test-db
+      PGDATABASE: lexa_test
+      PGUSER: lexa
+      PGPASSWORD: test-only-password
+      APP_PASSWORD: test-only-password
+      LLM_BASE_URL: http://mock-model:9000/v1
+      LLM_MODEL: protocol-fixture
+    depends_on:
+      test-db:
+        condition: service_healthy
+      mock-model:
+        condition: service_started
+  embedding-test:
+    image: lesana-test
+    profiles: [test]
+    ports: ["127.0.0.1:8090:8080"]
+    environment:
+      PGHOST: test-db
+      PGDATABASE: lexa_test
+      PGUSER: lexa
+      PGPASSWORD: test-only-password
+      APP_PASSWORD: test-only-password
+      EMBEDDING_BASE_URL: http://mock-model:9000/v1
+      EMBEDDING_MODEL: embedding-fixture
+      EMBEDDING_API_KEY: fixture-key
+      EMBEDDING_QUERY_PREFIX: "fixture_query: "
+      EMBEDDING_DOCUMENT_PREFIX: "fixture_document: "
+      EMBEDDING_MIN_SIMILARITY: "0.35"
+    depends_on:
+      test-db:
+        condition: service_healthy
+      mock-model:
+        condition: service_started

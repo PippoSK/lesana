@@ -1,0 +1,27 @@
+{
+  "act_id": "EU/TREATY/41998A0126",
+  "title": "Bruselský dohovor o súdnej právomoci a výkone rozhodnutí v občianskych a obchodných veciach",
+  "number": "Bruselský dohovor (1968)",
+  "valid_from": "1998-01-26",
+  "valid_to": null,
+  "verified_on": "2026-10-03",
+  "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:41998A0126",
+  "pdf_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:41998A0126",
+  "sha256": "01bdf6dd23cbd8fdcef770895320a701566216882eea6a37856c349f4dcaa75b",
+  "expected_sections": 0,
+  "expected_letters": 0,
+  "expected_articles": 96,
+  "expected_paragraphs": 0,
+  "expected_nodes": 100,
+  "treaty": {
+    "celex": "41998A0126",
+    "language": "en",
+    "signed_on": "1968-09-27",
+    "published_on": "1998-01-26",
+    "legal_context": "Historické konsolidované anglické znenie Bruselského dohovoru z roku 1968 a protokolov, uverejnené 26. 1. 1998 (Ú. v. ES C 27). Táto konsolidácia sama nemá záväznú právnu silu. Dátum publikácie nie je dátum účinnosti; overenie zdroja nepotvrdzuje jeho použiteľnosť na dnešný spor. Časovú a územnú pôsobnosť treba posúdiť osobitne. Nezamieňať s nariadeniami Brusel I (44/2001) alebo Brusel Ia (1215/2012).",
+    "download_url": "https://op.europa.eu/o/opportal-service/download-handler?identifier=0e63083c-47ab-4e17-9f94-c319950e98dc&format=html&language=en&productionSystem=cellar&part=",
+    "expected_convention_articles": 71,
+    "expected_protocol_articles": 11,
+    "expected_interpretation_articles": 14
+  }
+}

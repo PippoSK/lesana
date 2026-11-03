@@ -1,0 +1,56 @@
+name: lexa
+services:
+  db:
+    image: pgvector/pgvector:0.8.6-pg17-bookworm
+    environment:
+      POSTGRES_DB: lexa
+      POSTGRES_USER: lexa
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-lexa-local-change-me}
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    healthcheck:
+      test: [CMD-SHELL, "pg_isready -U lexa -d lexa"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+    restart: unless-stopped
+  app:
+    build: .
+    ports:
+      - "${BIND_ADDRESS:-127.0.0.1}:${APP_PORT:-8088}:8080"
+    environment:
+      PGHOST: db
+      PGDATABASE: lexa
+      PGUSER: lexa
+      PGPASSWORD: ${POSTGRES_PASSWORD:-lexa-local-change-me}
+      APP_PASSWORD: ${APP_PASSWORD:-}
+      COOKIE_SECURE: ${COOKIE_SECURE:-false}
+      LLM_PROVIDER: ${LLM_PROVIDER:-auto}
+      LLM_BASE_URL: ${LLM_BASE_URL:-}
+      LLM_API_KEY: ${LLM_API_KEY:-}
+      OPENROUTER_API_KEY: ${OPENROUTER_API_KEY:-}
+      LLM_MODEL: ${LLM_MODEL:-}
+      RAG_ARCHITECTURE: ${RAG_ARCHITECTURE:-agentic}
+      RAG_MAX_TURNS: ${RAG_MAX_TURNS:-6}
+      EMBEDDING_BASE_URL: ${EMBEDDING_BASE_URL:-}
+      EMBEDDING_API_KEY: ${EMBEDDING_API_KEY:-}
+      EMBEDDING_MODEL: ${EMBEDDING_MODEL:-}
+      EMBEDDING_QUERY_PREFIX: ${EMBEDDING_QUERY_PREFIX:-}
+      EMBEDDING_DOCUMENT_PREFIX: ${EMBEDDING_DOCUMENT_PREFIX:-}
+      EMBEDDING_REVISION: ${EMBEDDING_REVISION:-}
+      EMBEDDING_MIN_SIMILARITY: ${EMBEDDING_MIN_SIMILARITY:-0.35}
+      RUST_LOG: lesana=info,tower_http=warn
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    depends_on:
+      db:
+        condition: service_healthy
+    read_only: true
+    tmpfs:
+      - /tmp
+    security_opt:
+      - no-new-privileges:true
+    cap_drop: [ALL]
+    restart: unless-stopped
+volumes:
+  postgres-data:

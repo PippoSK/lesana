@@ -1,0 +1,23 @@
+//! Output ports owned by the application and implemented by SPI adapters.
+use anyhow::Result;
+use std::{future::Future, pin::Pin};
+pub type PortFuture<'a, T> = Pin<Box<dyn Future<Output = Result<T>> + Send + 'a>>;
+pub mod legal_repository_abstract;
+pub use legal_repository_abstract::LegalRepository;
+pub mod progress_sink_abstract;
+pub use progress_sink_abstract::ProgressSink;
+pub mod research_tools_abstract;
+pub use research_tools_abstract::{ResearchOutcome, ResearchTools};
+pub mod language_model_repository_abstract;
+pub use language_model_repository_abstract::LanguageModel;
+pub mod turn_repository_abstract;
+pub use turn_repository_abstract::{ConversationTurn, TurnRepository};
+pub mod conversation_repository_abstract;
+pub use conversation_repository_abstract::ConversationRepository;
+pub mod catalog_repository_abstract;
+pub use crate::application::utils::errors::StorageFailure;
+pub use catalog_repository_abstract::CatalogRepository;
+pub mod source_request_repository_abstract;
+pub use source_request_repository_abstract::SourceRequestRepository;
+pub mod attachment_repository_abstract;
+pub use attachment_repository_abstract::{AttachmentExtractor, AttachmentRepository};

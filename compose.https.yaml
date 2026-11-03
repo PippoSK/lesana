@@ -1,0 +1,25 @@
+# Docker Compose 2.24.4+; use together with compose.yaml.
+# DNS must point APP_DOMAIN to this host and ports 80/443 must be reachable.
+services:
+  app:
+    ports: !reset []
+    environment:
+      APP_PASSWORD: ${APP_PASSWORD:?Set a strong APP_PASSWORD in .env}
+      COOKIE_SECURE: "true"
+  proxy:
+    image: caddy:2-alpine
+    ports:
+      - "80:80"
+      - "443:443"
+    environment:
+      APP_DOMAIN: ${APP_DOMAIN:?Set APP_DOMAIN in .env}
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy-data:/data
+      - caddy-config:/config
+    depends_on: [app]
+    restart: unless-stopped
+volumes:
+  caddy-data:
+  caddy-config:
+

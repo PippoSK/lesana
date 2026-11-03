@@ -1,0 +1,16 @@
+{
+  "act_id": "SK/ZZ/1964/40",
+  "title": "Občiansky zákonník",
+  "number": "40/1964 Zb.",
+  "valid_from": "2026-07-31",
+  "valid_to": null,
+  "verified_on": "2026-10-02",
+  "source_url": "https://static.slov-lex.sk/static/SK/ZZ/1964/40/20260731.html",
+  "pdf_url": "https://static.slov-lex.sk/pdf/SK/ZZ/1964/40/ZZ_1964_40_20260731.pdf",
+  "sha256": "afbb1d6302fef8c770374e07616532e05918a9a7aec5dd1f078d8f33afaece0e",
+  "expected_sections": 687,
+  "expected_letters": 192,
+  "expected_articles": 0,
+  "expected_paragraphs": 1382,
+  "expected_nodes": 2526
+}
